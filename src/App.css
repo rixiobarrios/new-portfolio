@@ -1,0 +1,421 @@
+/* Header/Menu bar */
+.header-color {
+    background-color: #339999 !important;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+/* .nav-menu {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+} */
+/* .header-content {
+    text-align: center;
+} */
+.mdl-navigation a {
+    align-items: center !important;
+}
+
+/* .mdl-list__item-primary-content span {
+    align-items: center;
+    text-align: center;
+} */
+.mdl-layout__header {
+    justify-content: center !important;
+    flex-direction: row !important;
+}
+.mdl-layout__header-row {
+    padding-left: 20px !important;
+}
+
+.mdl-layout__drawer-button {
+    display: none !important;
+}
+.sticky-nav {
+    display: none;
+}
+
+/* Landing Page CSS */
+.landing-grid {
+    background: #ffff; /* fallback for old browsers */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.avatar-img {
+    height: 250px;
+    padding-top: 5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.banner-text {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-color: #f6f9f9;
+    width: 75%;
+    margin: auto;
+    border-radius: 15px;
+    padding-top: -15px;
+}
+
+.banner-text h1 {
+    font-family: 'Bungee Hairline', sans-serif;
+    font-size: 66px;
+    font-weight: normal;
+    color: #339999;
+    padding-top: -15px;
+    margin-bottom: 0.1em;
+}
+
+.banner-text hr {
+    border-top: 5px dotted #919292;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.banner-text p {
+    color: #919292;
+    font-size: 19px;
+    padding: 1em;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.social-links i {
+    color: #919292;
+    font-size: 5em;
+    padding: 8px;
+    margin-top: -0.2em;
+    margin-bottom: 0.3em;
+}
+
+/* Resume Page CSS */
+.resume-right-col {
+    background: #f6f9f9;
+    font-family: 'Montserrat', sans-serif;
+    color: #919292;
+    padding: 2em;
+    border-radius: 15px;
+}
+
+.resume-right-col h2 {
+    font-family: 'Bungee Hairline', sans-serif;
+    color: #339999;
+}
+.resume-right-col h4 {
+    font-family: 'Bungee Hairline', sans-serif;
+    color: #339999;
+}
+.resume-left-col {
+    /* border: 1px solid black; */
+    font-family: 'Montserrat';
+    color: #919292;
+}
+.resume-left-col h2 {
+    margin: 0 auto;
+    /* padding-top: 1.2em !important; */
+}
+
+.resume-left-col h6 {
+    font-family: 'Montserrat';
+}
+
+.resume-left-col hr {
+    border-top: 5px dotted #919292;
+    width: 85%;
+}
+
+.html {
+    height: 50px;
+}
+.css {
+    height: 50px;
+}
+.javascript {
+    height: 50px;
+}
+.python {
+    height: 50px;
+}
+.react {
+    height: 50px;
+}
+.react-router {
+    height: 50px;
+}
+.nodejs {
+    height: 50px;
+}
+
+.postgresql {
+    height: 50px;
+}
+
+.angular {
+    height: 50px;
+}
+
+.jquery {
+    height: 50px;
+}
+
+.becrypt {
+    height: 50px;
+}
+
+.sequelize {
+    height: 50px;
+}
+.bootstrap {
+    height: 50px;
+}
+.django {
+    height: 50px;
+}
+.mongodb {
+    height: 50px;
+}
+.wordpress {
+    height: 50px;
+}
+
+.lodash {
+    height: 50px;
+}
+.jest {
+    height: 50px;
+}
+.enzyme {
+    height: 50px;
+}
+.react-testing-library {
+    height: 50px;
+}
+.nodemon {
+    height: 50px;
+}
+.chai {
+    height: 50px;
+}
+.cors {
+    height: 50px;
+}
+.express {
+    height: 50px;
+}
+.mocha {
+    height: 50px;
+}
+.material-ui {
+    height: 50px;
+}
+.mongoose {
+    height: 50px;
+}
+.typescrypt {
+    height: 50px;
+}
+.rxjs {
+    height: 50px;
+}
+.jasmine {
+    height: 50px;
+}
+.karma {
+    height: 50px;
+}
+.protractor {
+    height: 50px;
+}
+.react-hooks {
+    height: 50px;
+}
+/* About Me Page CSS */
+.about-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.about-body p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-body h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-body i {
+    font-size: 20px;
+}
+
+.about-quote {
+    padding: 1rem 0.3rem;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    background: #f6f9f9;
+    color: #919292;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.about-grid h1 {
+    font-family: 'Bungee Hairline', sans-serif;
+    color: #339999;
+}
+
+/* Projects Page CSS */
+.projects-grid {
+    display: flex;
+}
+
+/* Contact Page CSS */
+.contact-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    background: #f6f9f9;
+    color: #919292;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.contact-grid h2 {
+    font-family: 'Bungee Hairline', sans-serif;
+    color: #339999;
+}
+
+.contact-grid p {
+    font-family: 'Montserrat', sans-serif;
+    color: #919292;
+    font-weight: normal;
+}
+
+.contact-grid img {
+    border-radius: 15px;
+}
+
+.contact-grid hr {
+    border-top: 5px dotted #919292;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-list {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 66px;
+    color: #919292;
+}
+
+.contact-list i {
+    font-size: 66px;
+    color: #919292;
+    padding-right: 5rem;
+}
+.contact-details {
+    font-size: 30px;
+    border: 1px solid black;
+    text-align: center !important;
+    justify-content: center !important;
+    align-content: center;
+    display: inline-block;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 auto;
+}
+
+/* Media Query */
+@media handheld, only screen and (max-width: 720px) {
+    .sticky-nav {
+        display: block;
+        background-color: white;
+        width: 100%;
+        height: 100px;
+    }
+    .avatar-img {
+        height: 200px;
+        padding-top: 5em;
+        margin-top: -2em;
+        margin-bottom: 1.4em;
+    }
+    .banner-text h1 {
+        font-size: 60px;
+    }
+    .social-links {
+        width: 80%;
+    }
+    .social-links i {
+        font-size: 2.4em;
+        margin-top: -2em;
+    }
+    .resume-left-col {
+        display: block;
+        width: 75%;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+    .resume-left-col h2 {
+        padding-top: 0.3em !important;
+    }
+    .resume-left-col hr {
+        margin: 10px auto;
+    }
+    .about-body {
+        position: relative;
+    }
+    .contact-body {
+        position: relative;
+    }
+    .contact-list {
+        font-size: 33px;
+    }
+    .contact-list i {
+        font-size: 33px;
+        padding-right: 1rem;
+    }
+    .contact-details {
+        font-size: 18px;
+    }
+    .mdl-layout__drawer-button {
+        display: block !important;
+    }
+}
+
+/* @media handheld, only screen and (max-width: 720px) {
+    .nav-drawer {
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        color: #919292;
+    }
+} */

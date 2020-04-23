@@ -1,0 +1,10 @@
+{
+    "forms": {
+        "contactForm": {
+            "name": "Contact Form",
+            "actions": [
+                { "type": "email", "to": "rixiobarrios.consulado@gmail.com" }
+            ]
+        }
+    }
+}
