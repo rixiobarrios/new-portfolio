@@ -209,10 +209,7 @@
 .about-grid hr {
     border-top: 5px dotted #919292;
     width: 65%;
-    /* margin: 1px 0px 33px 130px; */
-    /* text-align: center;
-    align-items: center;
-    align-content: center; */
+    margin: 1px 0px 33px 130px;
 }
 
 /* Projects Page CSS */
@@ -364,9 +361,7 @@
         margin-top: 10px;
     }
     .about-grid hr {
-        text-align: center;
-        align-items: center;
-        align-content: center;
+        margin: 1px 0px 33px 50px;
     }
     .mdl-tabs__tab-bar {
         height: 70px;
@@ -404,6 +399,11 @@
         /* justify-content: center !important;
         flex-direction: row !important; */
         font-size: 18px;
+    }
+    .mdl-list__item,
+    .mdl-list__item-primary-content {
+        align-items: center !important;
+        margin: 45px 0px 20px 10px;
     }
     .mdl-layout__drawer-button {
         display: block !important;
