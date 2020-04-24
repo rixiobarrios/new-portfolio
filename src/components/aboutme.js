@@ -8,6 +8,7 @@ class About extends Component {
                 <Grid className="about-grid">
                     <Cell col={10}>
                         <h1>About Me</h1>
+                        <hr></hr>
                         <p>
                             Ever since I was a kid, technology has been my
                             passion. I remember the time my brother brought home

@@ -20,7 +20,7 @@ class Projects extends Component {
     toggleCategories() {
         if (this.state.activeTab === 0) {
             return (
-                <Grid className="projects-grid-react">
+                <Grid className="projects-grid">
                     {/* React Project 1 */}
                     <Card
                         shadow={0}
@@ -360,7 +360,7 @@ class Projects extends Component {
         } else if (this.state.activeTab === 4) {
             return (
                 <div>
-                    <h1>Angular</h1>
+                    <h1>This is Angular</h1>
                 </div>
             );
         }
@@ -368,7 +368,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <div>
+            <div className="projects-tabs">
                 <Tabs
                     activeTab={this.state.activeTab}
                     onChange={(tabId) => this.setState({ activeTab: tabId })}

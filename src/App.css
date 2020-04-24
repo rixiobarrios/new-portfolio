@@ -4,23 +4,9 @@
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
-/* .nav-menu {
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-} */
-/* .header-content {
-    text-align: center;
-} */
 .mdl-navigation a {
     align-items: center !important;
 }
-
-/* .mdl-list__item-primary-content span {
-    align-items: center;
-    text-align: center;
-} */
 .mdl-layout__header {
     justify-content: center !important;
     flex-direction: row !important;
@@ -38,10 +24,10 @@
 
 /* Landing Page CSS */
 .landing-grid {
-    background: #ffff; /* fallback for old browsers */
+    background: #ffff;
     text-align: center;
     position: fixed;
-    top: 0;
+    top: -6px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -62,6 +48,7 @@
     margin: auto;
     border-radius: 15px;
     padding-top: -15px;
+    padding-bottom: 1rem;
 }
 
 .banner-text h1 {
@@ -75,7 +62,7 @@
 
 .banner-text hr {
     border-top: 5px dotted #919292;
-    width: 50%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -88,7 +75,7 @@
 .social-links {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 65%;
     margin: auto;
 }
 
@@ -101,6 +88,10 @@
 }
 
 /* Resume Page CSS */
+.mdl-grid {
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+}
 .resume-right-col {
     background: #f6f9f9;
     font-family: 'Montserrat', sans-serif;
@@ -136,119 +127,49 @@
     width: 85%;
 }
 
-.html {
-    height: 50px;
-}
-.css {
-    height: 50px;
-}
-.javascript {
-    height: 50px;
-}
-.python {
-    height: 50px;
-}
-.react {
-    height: 50px;
-}
-.react-router {
-    height: 50px;
-}
-.nodejs {
-    height: 50px;
-}
-
-.postgresql {
-    height: 50px;
-}
-
-.angular {
-    height: 50px;
-}
-
-.jquery {
-    height: 50px;
-}
-
-.becrypt {
-    height: 50px;
-}
-
-.sequelize {
-    height: 50px;
-}
-.bootstrap {
-    height: 50px;
-}
-.django {
-    height: 50px;
-}
-.mongodb {
-    height: 50px;
-}
-.wordpress {
-    height: 50px;
-}
-
-.lodash {
-    height: 50px;
-}
-.jest {
-    height: 50px;
-}
-.enzyme {
-    height: 50px;
-}
-.react-testing-library {
-    height: 50px;
-}
-.nodemon {
-    height: 50px;
-}
-.chai {
-    height: 50px;
-}
-.cors {
-    height: 50px;
-}
-.express {
-    height: 50px;
-}
-.mocha {
-    height: 50px;
-}
-.material-ui {
-    height: 50px;
-}
-.mongoose {
-    height: 50px;
-}
-.typescrypt {
-    height: 50px;
-}
-.rxjs {
-    height: 50px;
-}
-.jasmine {
-    height: 50px;
-}
-.karma {
-    height: 50px;
-}
-.protractor {
-    height: 50px;
-}
+.html,
+.css,
+.javascript,
+.python,
+.react,
+.react-router,
+.nodejs,
+.postgresql,
+.angular,
+.jquery,
+.becrypt,
+.sequelize,
+.bootstrap,
+.django,
+.mongodb,
+.wordpress,
+.lodash,
+.jest,
+.enzyme,
+.react-testing-library,
+.nodemon,
+.chai,
+.cors,
+.express,
+.mocha,
+.material-ui,
+.mongoose,
+.typescrypt,
+.rxjs,
+.jasmine,
+.karma,
+.protractor,
 .react-hooks {
     height: 50px;
 }
 /* About Me Page CSS */
 .about-body {
-    margin: auto;
-    position: fixed;
+    margin-bottom: 10px;
     width: 100%;
     height: 100%;
     justify-content: center;
-    padding-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 3.6em;
 }
 
 .about-body p {
@@ -282,11 +203,22 @@
 .about-grid h1 {
     font-family: 'Bungee Hairline', sans-serif;
     color: #339999;
+    margin-bottom: 5px;
+}
+
+.about-grid hr {
+    border-top: 5px dotted #919292;
+    width: 65%;
+    /* margin: 1px 0px 33px 130px; */
+    /* text-align: center;
+    align-items: center;
+    align-content: center; */
 }
 
 /* Projects Page CSS */
 .projects-grid {
     display: flex;
+    font-family: 'Montserrat';
 }
 
 /* Contact Page CSS */
@@ -342,16 +274,12 @@
     padding-right: 5rem;
 }
 .contact-details {
-    font-size: 30px;
-    border: 1px solid black;
-    text-align: center !important;
-    justify-content: center !important;
-    align-content: center;
-    display: inline-block;
+    font-size: 25px;
+}
+.mdl-list__item,
+.mdl-list__item-primary-content {
     align-items: center !important;
-    width: 100% !important;
-    margin: 0 auto !important;
-    padding: 0 auto;
+    margin: 45px 0px 20px 30px;
 }
 
 /* Media Query */
@@ -360,7 +288,7 @@
         display: block;
         background-color: white;
         width: 100%;
-        height: 100px;
+        height: 50px;
     }
     .avatar-img {
         height: 200px;
@@ -391,11 +319,79 @@
     .resume-left-col hr {
         margin: 10px auto;
     }
+    .html,
+    .css,
+    .javascript,
+    .python,
+    .react,
+    .react-router,
+    .nodejs,
+    .postgresql,
+    .angular,
+    .jquery,
+    .becrypt,
+    .sequelize,
+    .bootstrap,
+    .django,
+    .mongodb,
+    .wordpress,
+    .lodash,
+    .jest,
+    .enzyme,
+    .react-testing-library,
+    .nodemon,
+    .chai,
+    .cors,
+    .express,
+    .mocha,
+    .material-ui,
+    .mongoose,
+    .typescrypt,
+    .rxjs,
+    .jasmine,
+    .karma,
+    .protractor,
+    .react-hooks {
+        height: 60px;
+    }
     .about-body {
         position: relative;
     }
+    .about-grid {
+        margin-bottom: 30px !important;
+    }
+    .about-grid h1 {
+        margin-top: 10px;
+    }
+    .about-grid hr {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+    .mdl-tabs__tab-bar {
+        height: 70px;
+        padding-top: 30px;
+        margin-top: -30px;
+        border-bottom: -20px;
+    }
+    /* .mdl-tabs__tab-bar {
+        position: fixed;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+} */
+    .projects-tabs a {
+        font-size: 12px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0px;
+    }
     .contact-body {
+        padding-top: 0px !important;
         position: relative;
+    }
+    .contact-grid {
+        margin-bottom: 30px !important;
     }
     .contact-list {
         font-size: 33px;
@@ -405,17 +401,11 @@
         padding-right: 1rem;
     }
     .contact-details {
+        /* justify-content: center !important;
+        flex-direction: row !important; */
         font-size: 18px;
     }
     .mdl-layout__drawer-button {
         display: block !important;
     }
 }
-
-/* @media handheld, only screen and (max-width: 720px) {
-    .nav-drawer {
-        font-family: 'Montserrat', sans-serif;
-        text-transform: uppercase;
-        color: #919292;
-    }
-} */

@@ -32,30 +32,62 @@ class Contact extends Component {
                         <h2>Reach out!</h2>
                         <hr />{' '}
                         <div style={{ textAlign: 'center' }}>
-                            <img
+                            {/* <img
                                 src="../images/logo.png"
                                 alt="avatar"
                                 style={{
                                     height: '300px',
                                     padding: '0 auto',
                                 }}
-                            />
+                            /> */}
                         </div>
                         <div className="contact-list">
                             <List>
                                 <ListItem>
                                     <ListItemContent
                                         style={{
-                                            TextAlign: 'left',
-                                            margin: '0 auto',
-                                            border: '1px solid black',
-                                            fontSize: '30px',
+                                            TextAlign: 'center',
+                                            fontSize: '25px',
                                             fontFamily: 'Montserrat',
                                             color: '#919292',
                                         }}
                                     >
                                         <p className="contact-details">
-                                            email@example.com
+                                            <form
+                                                name="contact"
+                                                method="POST"
+                                                data-netlify="true"
+                                            >
+                                                <p>
+                                                    <label>
+                                                        Your Name:{' '}
+                                                        <input
+                                                            type="text"
+                                                            name="name"
+                                                        />
+                                                    </label>
+                                                </p>
+                                                <p>
+                                                    <label>
+                                                        Your Email:{' '}
+                                                        <input
+                                                            type="email"
+                                                            name="email"
+                                                        />
+                                                    </label>
+                                                </p>
+                                                <p>
+                                                    <label>
+                                                        Message:{' '}
+                                                        <textarea name="message"></textarea>
+                                                    </label>
+                                                </p>
+                                                <p>
+                                                    <button type="submit">
+                                                        Send
+                                                    </button>
+                                                </p>
+                                            </form>
                                         </p>
                                     </ListItemContent>
                                 </ListItem>
