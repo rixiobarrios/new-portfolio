@@ -311,7 +311,7 @@ class Projects extends Component {
                                 height: '176px',
                                 textTransform: 'uppercase',
                                 background:
-                                    'url("../images/portfolio.png") center / cover',
+                                    'url("../images/latin.png") center / cover',
                             }}
                         >
                             .
@@ -322,14 +322,14 @@ class Projects extends Component {
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
-                                href="https://github.com/rixiobarrios/rixiobarrios.github.io"
+                                href="https://confident-joliot-2691c5.netlify.app"
                                 target="_blank"
                                 colored
                             >
                                 GitHub
                             </Button>
                             <Button
-                                href="https://rixiobarrios.github.io/"
+                                href="https://github.com/rixiobarrios/ronaldbarrios"
                                 target="_blank"
                                 colored
                             >
