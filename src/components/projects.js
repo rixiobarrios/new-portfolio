@@ -194,7 +194,7 @@ class Projects extends Component {
                                 GitHub
                             </Button>
                             <Button
-                                href="https://rixiobarrios.com/rock-paper-scissors/"
+                                href="https://xenodochial-tereshkova-88fbb0.netlify.app"
                                 target="_blank"
                                 colored
                             >
@@ -230,7 +230,8 @@ class Projects extends Component {
                         </CardTitle>
                         <CardText>
                             An alternative news outlet, daily updates, opinion
-                            pieces, Telegram chat available.
+                            pieces, Telegram chat available. <br></br>This is a
+                            collaboration project.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -282,7 +283,7 @@ class Projects extends Component {
                                 GitHub
                             </Button>
                             <Button
-                                href="https://rixiobarrios.github.io/"
+                                href="https://youthful-brattain-a90e74.netlify.app"
                                 target="_blank"
                                 colored
                             >
@@ -322,14 +323,14 @@ class Projects extends Component {
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
-                                href="https://confident-joliot-2691c5.netlify.app"
+                                href="https://github.com/rixiobarrios/ronaldbarrios"
                                 target="_blank"
                                 colored
                             >
                                 GitHub
                             </Button>
                             <Button
-                                href="https://github.com/rixiobarrios/ronaldbarrios"
+                                href="https://www.ronaldbarrios.com"
                                 target="_blank"
                                 colored
                             >
