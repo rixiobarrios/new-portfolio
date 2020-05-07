@@ -36,7 +36,7 @@ A portfolio is not a resume. It is a showcase of completed work rather than a de
 
 # Mobile Preview
 
-<img width="746" alt="" src="">
+<img width="373" alt="" src="https://user-images.githubusercontent.com/55994508/81252239-0e67ed80-8feb-11ea-93b0-7f4aa6b6b940.png">
 
 # Hardware Platform
 
