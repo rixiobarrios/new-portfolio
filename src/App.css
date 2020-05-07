@@ -122,6 +122,11 @@
     font-family: 'Montserrat';
 }
 
+.resume-left-col a {
+    text-decoration: none;
+    color: #919292;
+}
+
 .resume-left-col hr {
     border-top: 5px dotted #919292;
     width: 85%;
@@ -294,7 +299,7 @@
         margin-bottom: 1.4em;
     }
     .banner-text h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
     .social-links {
         width: 80%;

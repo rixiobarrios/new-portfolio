@@ -55,7 +55,13 @@ class Resume extends Component {
                         >
                             Projects
                         </h4>
-                        <h6>Early Portfolio</h6>
+                        <a
+                            href="https://rixiobarrios.github.io/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Early Portfolio</h6>
+                        </a>
                         <img
                             className="html"
                             src="../images/html.png"
@@ -66,7 +72,13 @@ class Resume extends Component {
                             src="../images/css.png"
                             alt="css"
                         />
-                        <h6>Rock Paper Scissors</h6>
+                        <a
+                            href="https://xenodochial-tereshkova-88fbb0.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Early Portfolio</h6>
+                        </a>
                         <img
                             className="html"
                             src="../images/html.png"
@@ -83,7 +95,13 @@ class Resume extends Component {
                             alt="javascript"
                         />
                         <br></br>
-                        <h6>Elixir: Cocktail Recipe</h6>
+                        <a
+                            href="http://cocktail-recipe-app.herokuapp.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Elixir: Cocktail Recipe</h6>
+                        </a>
                         <img
                             className="html"
                             src="../images/html.png"
@@ -104,7 +122,13 @@ class Resume extends Component {
                             src="../images/react-router.png"
                             alt="react-router"
                         />
-                        <h6>Console.love</h6>
+                        <a
+                            href="http://consoledotlove.herokuapp.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Console.love</h6>
+                        </a>
                         <img
                             className="html"
                             src="../images/html.png"
@@ -150,7 +174,13 @@ class Resume extends Component {
                             src="../images/mongoose.png"
                             alt="mongoose"
                         />
-                        <h6>For Food Sake</h6>
+                        <a
+                            href="https://forfoodsake.herokuapp.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>For Food Sake</h6>
+                        </a>
                         <img
                             className="html"
                             src="../images/html.png"
@@ -231,13 +261,25 @@ class Resume extends Component {
                             src="../images/sequelize.png"
                             alt="sequelize"
                         />
-                        <h6>Orinoco Tribune</h6>
+                        <a
+                            href="https://www.orinocotribune.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>For Food Sake</h6>
+                        </a>
                         <img
                             className="wordpress"
                             src="../images/wordpress.png"
                             alt="wordpress"
                         />
-                        <h6>Passion Project: Artist Profile</h6>
+                        <a
+                            href="https://www.ronaldbarrios.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Latin Percussionist</h6>
+                        </a>
                         <img
                             className="angular"
                             src="../images/angular.png"
