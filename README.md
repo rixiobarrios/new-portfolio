@@ -28,7 +28,7 @@ A portfolio is not a resume. It is a showcase of completed work rather than a de
 
 # Link
 
-[New Portfolio](https://www.rixiobarrios.com)
+-   [New Portfolio](https://www.rixiobarrios.com)
 
 # Browser Preview
 

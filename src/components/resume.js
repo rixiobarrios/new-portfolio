@@ -77,7 +77,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>Early Portfolio</h6>
+                            <h6>Rock Paper Scissors</h6>
                         </a>
                         <img
                             className="html"
@@ -266,7 +266,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>For Food Sake</h6>
+                            <h6>Orinoco Tribune</h6>
                         </a>
                         <img
                             className="wordpress"
