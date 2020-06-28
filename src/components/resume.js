@@ -60,7 +60,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>Early Portfolio</h6>
+                            <h6>Previous Portfolio</h6>
                         </a>
                         <img
                             className="html"
@@ -73,7 +73,7 @@ class Resume extends Component {
                             alt="css"
                         />
                         <a
-                            href="https://xenodochial-tereshkova-88fbb0.netlify.app/"
+                            href="https://rock-paper-scissors-88fbb0.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -330,6 +330,14 @@ class Resume extends Component {
                         <h2>Experience</h2>
 
                         <Experience
+                            startYear={2020}
+                            endYear="Present"
+                            jobCompany="Boxless Media"
+                            jobName="Software Engineer Intern"
+                            jobDescription="Assisting in the creation of websites and web applications for marketing clients using various frameworks. "
+                        />
+
+                        <Experience
                             startYear={2019}
                             endYear={2020}
                             jobCompany="General Assembly"
@@ -342,13 +350,6 @@ class Resume extends Component {
                             endYear={2019}
                             jobCompany="Consulate of Venezuela"
                             jobName="Deputy Consul"
-                            jobDescription="Supervised consular services, special cases, immigration cases, incarcerations, deportations, difficult cases, complaints and grievances, public speaking, presentations, public events and communications. Deployed mobile consular services through our jurisdictions of 7 US states. Met with elected officials including a few city mayors and governors. Started two sister city programs and provided assistance with commercial and cultural trade."
-                        />
-                        <Experience
-                            startYear={2006}
-                            endYear={2008}
-                            jobCompany="CFA Staffing"
-                            jobName="Human Resource Manager"
                             jobDescription="Supervised consular services, special cases, immigration cases, incarcerations, deportations, difficult cases, complaints and grievances, public speaking, presentations, public events and communications. Deployed mobile consular services through our jurisdictions of 7 US states. Met with elected officials including a few city mayors and governors. Started two sister city programs and provided assistance with commercial and cultural trade."
                         />
                         <hr style={{ borderTop: '3px solid #339999' }} />

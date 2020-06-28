@@ -194,7 +194,7 @@ class Projects extends Component {
                                 GitHub
                             </Button>
                             <Button
-                                href="https://xenodochial-tereshkova-88fbb0.netlify.app"
+                                href="https://rock-paper-scissors-88fbb0.netlify.app/"
                                 target="_blank"
                                 colored
                             >
