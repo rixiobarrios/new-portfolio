@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
+import Volunteer from './volunteer';
 
 class Resume extends Component {
     render() {
@@ -113,6 +114,11 @@ class Resume extends Component {
                             alt="css"
                         />
                         <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
+                        <img
                             className="react"
                             src="../images/react.png"
                             alt="react"
@@ -138,6 +144,11 @@ class Resume extends Component {
                             className="css"
                             src="../images/css.png"
                             alt="css"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
                         />
                         <img
                             className="react"
@@ -192,9 +203,9 @@ class Resume extends Component {
                             alt="css"
                         />
                         <img
-                            className="material-ui"
-                            src="../images/material-ui.png"
-                            alt="material-ui"
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
                         />
                         <img
                             className="react"
@@ -210,6 +221,11 @@ class Resume extends Component {
                             className="react-router"
                             src="../images/react-router.png"
                             alt="react-router"
+                        />
+                        <img
+                            className="material-ui"
+                            src="../images/material-ui.png"
+                            alt="material-ui"
                         />
                         <img
                             className="jest"
@@ -262,18 +278,6 @@ class Resume extends Component {
                             alt="sequelize"
                         />
                         <a
-                            href="https://www.orinocotribune.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <h6>Orinoco Tribune</h6>
-                        </a>
-                        <img
-                            className="wordpress"
-                            src="../images/wordpress.png"
-                            alt="wordpress"
-                        />
-                        <a
                             href="https://www.ronaldbarrios.com/"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -320,6 +324,128 @@ class Resume extends Component {
                             src="../images/protractor.png"
                             alt="protractor"
                         />
+                        <a
+                            href="https://age-calculator-4d21eb.netlify.app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <hr
+                                style={{
+                                    borderTop: '3px solid #339999',
+                                }}
+                            />
+                            <h4
+                                style={{
+                                    color: '#919292',
+                                    textTransform: 'uppercase',
+                                    fontFamily: 'Montserrat',
+                                }}
+                            >
+                                Mini Projects
+                            </h4>
+                            <h6>Age Calculator</h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
+                        <hr
+                            style={{
+                                borderTop: '3px solid #339999',
+                            }}
+                        />
+                        <h4
+                            style={{
+                                color: '#919292',
+                                textTransform: 'uppercase',
+                                fontFamily: 'Montserrat',
+                            }}
+                        >
+                            Collaborations
+                        </h4>
+                        <a
+                            href="https://www.orinocotribune.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Orinoco Tribune</h6>
+                        </a>
+                        <img
+                            className="wordpress"
+                            src="../images/wordpress.png"
+                            alt="wordpress"
+                        />
+                        <a
+                            href="https://richcapitalconcepts.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Rich Capital Concepts</h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
+                        <img
+                            className="react"
+                            src="../images/react.png"
+                            alt="react"
+                        />
+                        <img
+                            className="material-ui"
+                            src="../images/material-ui.png"
+                            alt="material-ui"
+                        />
+                        <a
+                            href="https://fightpandemics.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>FightPandemics</h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
+                        <img
+                            className="react"
+                            src="../images/react.png"
+                            alt="react"
+                        />
+                        <br></br>
                         <hr
                             style={{
                                 borderTop: '3px solid #339999',
@@ -361,6 +487,24 @@ class Resume extends Component {
                             schoolName="General Assembly"
                             schoolCourse="Software Engineer Immersive"
                             schoolDescription="Three-months of learning and using numerous techniques and technologies for optimal Web-development 400+hour full-time of a full-stack program conducted in a remote setting, providing experience with the latest front- and back-end programming languages, tools, and methodologies. Built several real-life projects individually and a few under paired programming."
+                        />
+                        <hr style={{ borderTop: '3px solid #339999' }} />
+                        <h2>Volunteer Experience</h2>
+
+                        <Volunteer
+                            startYear={2020}
+                            endYear="Present"
+                            jobCompany="FightPandemics"
+                            jobName="Software Engineer"
+                            jobDescription="FightPandemics is an altruistic platform created in the wake of COVID-19 that connects people and organizations in need of help with those that can provide it. In fostering these vital connections, we empower communities to respond more quickly and effectively to the crisis. Our vision is to create a world where humans are more resilient to emergencies. We are a global group of volunteers that came together to make a difference and are actively looking for other highly-dedicated individuals to join us."
+                        />
+
+                        <Volunteer
+                            startYear={2020}
+                            endYear="Present"
+                            jobCompany="Rich Capital Concepts"
+                            jobName="Software Engineer"
+                            jobDescription="Responsible for the coding, design and layout of the organization's website. Partially in charge of other areas like IT support, digital marketing and social media administration."
                         />
                         <hr style={{ borderTop: '3px solid #339999' }} />
                     </Cell>
