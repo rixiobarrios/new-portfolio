@@ -445,6 +445,41 @@ class Resume extends Component {
                             src="../images/react.png"
                             alt="react"
                         />
+                        <img
+                            className="react-hooks"
+                            src="../images/react-hooks.png"
+                            alt="react-hooks"
+                        />
+                        <img
+                            className="react-redux"
+                            src="../images/react-redux.png"
+                            alt="react-redux"
+                        />
+                        <img
+                            className="react-testing-library"
+                            src="../images/react-testing-library.png"
+                            alt="react-testing-library"
+                        />
+                        <img
+                            className="snyk"
+                            src="../images/snyk.png"
+                            alt="snyk"
+                        />
+                        <img
+                            className="ant"
+                            src="../images/ant.png"
+                            alt="ant"
+                        />
+                        <img
+                            className="uuid"
+                            src="../images/uuid.png"
+                            alt="uuid"
+                        />
+                        <img
+                            className="lodash"
+                            src="../images/lodash.png"
+                            alt="lodash"
+                        />
                         <br></br>
                         <hr
                             style={{

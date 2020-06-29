@@ -164,7 +164,11 @@
 .jasmine,
 .karma,
 .protractor,
-.react-hooks {
+.react-hooks,
+.react-redux,
+.ant,
+.snyk,
+.uuid {
     height: 50px;
 }
 /* About Me Page CSS */
