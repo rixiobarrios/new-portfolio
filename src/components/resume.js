@@ -461,6 +461,11 @@ class Resume extends Component {
                             alt="react-testing-library"
                         />
                         <img
+                            className="lodash"
+                            src="../images/lodash.png"
+                            alt="lodash"
+                        />
+                        <img
                             className="snyk"
                             src="../images/snyk.png"
                             alt="snyk"
@@ -476,10 +481,31 @@ class Resume extends Component {
                             alt="uuid"
                         />
                         <img
-                            className="lodash"
-                            src="../images/lodash.png"
-                            alt="lodash"
+                            className="fastify"
+                            src="../images/fastify.png"
+                            alt="fastify"
                         />
+                        <img
+                            className="auth0"
+                            src="../images/auth0.png"
+                            alt="auth0"
+                        />
+                        <img
+                            className="gmapi"
+                            src="../images/gmapi.png"
+                            alt="gmapi"
+                        />
+                        <img
+                            className="mongodb"
+                            src="../images/mongodb.png"
+                            alt="mongodb"
+                        />
+                        <img
+                            className="mongoose"
+                            src="../images/mongoose.png"
+                            alt="mongoose"
+                        />
+
                         <br></br>
                         <hr
                             style={{

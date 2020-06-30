@@ -168,7 +168,10 @@
 .react-redux,
 .ant,
 .snyk,
-.uuid {
+.uuid,
+.fastify,
+.auth0,
+.gmapi {
     height: 50px;
 }
 /* About Me Page CSS */

@@ -2,6 +2,8 @@
 
 # New Software Engineer Portfolio by Rixio Barrios
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6832e3d4-91f8-496d-a75d-60f77ff60e71/deploy-status)](https://app.netlify.com/sites/gallant-pare-febd5f/deploys)
+
 Here is a version of the previous portfolio made as a lad exercise during our early days at General Assembly.
 
 -   [Lab Repository by General Assembly](https://www.donothavealink.com)
