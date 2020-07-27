@@ -360,6 +360,28 @@ class Resume extends Component {
                             src="../images/javascript.png"
                             alt="javascript"
                         />
+                        <a
+                            href="https://getuwired-css-drop-down-menu.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <hr
+                                style={{
+                                    borderTop: '3px solid #339999',
+                                }}
+                            />
+                            <h6>CSS Drop Down Menu</h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
                         <hr
                             style={{
                                 borderTop: '3px solid #339999',
