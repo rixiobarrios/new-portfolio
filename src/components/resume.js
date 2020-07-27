@@ -365,11 +365,6 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <hr
-                                style={{
-                                    borderTop: '3px solid #339999',
-                                }}
-                            />
                             <h6>CSS Drop Down Menu</h6>
                         </a>
                         <img
