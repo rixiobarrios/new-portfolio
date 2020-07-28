@@ -154,6 +154,48 @@ class Projects extends Component {
                             </Button>
                         </CardActions>
                     </Card>
+                    {/* React Project 4 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/fightpandemics.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            An application to help communities around the world
+                            prepare and respond to the current Covid-19 Pandemic
+                            crisis.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/FightPandemics/FightPandemics"
+                                target="_blank"
+                                colored
+                            >
+                                GitHub
+                            </Button>
+                            <Button
+                                href="https://fightpandemics.com/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
                 </Grid>
             );
         }
@@ -183,7 +225,7 @@ class Projects extends Component {
                         <CardText>
                             A game written in vanilla javascript: animated
                             interface, single player feature, score keeping,
-                            score reset.
+                            score reset and sound.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -229,9 +271,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            An alternative news outlet, daily updates, opinion
-                            pieces, Telegram chat available. <br></br>This is a
-                            collaboration project.
+                            An alternative news media outlet with daily updates
+                            and opinion pieces. Please support us! Donate now!
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -284,6 +325,48 @@ class Projects extends Component {
                             </Button>
                             <Button
                                 href="https://rixiobarrios.github.io/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* HTML/CSS Project 2 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/getuwired.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            A splash page and dropdown menu created out of pure
+                            CSS and HTML. This single file was design for
+                            GetUwired Internet Marketing.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/getuwired-css-drop-down"
+                                target="_blank"
+                                colored
+                            >
+                                GitHub
+                            </Button>
+                            <Button
+                                href="https://getuwired-css-drop-down-menu.netlify.app/"
                                 target="_blank"
                                 colored
                             >

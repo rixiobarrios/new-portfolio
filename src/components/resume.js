@@ -324,42 +324,20 @@ class Resume extends Component {
                             src="../images/protractor.png"
                             alt="protractor"
                         />
-                        <a
-                            href="https://age-calculator-4d21eb.netlify.app"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                        <hr
+                            style={{
+                                borderTop: '3px solid #339999',
+                            }}
+                        />
+                        <h4
+                            style={{
+                                color: '#919292',
+                                textTransform: 'uppercase',
+                                fontFamily: 'Montserrat',
+                            }}
                         >
-                            <hr
-                                style={{
-                                    borderTop: '3px solid #339999',
-                                }}
-                            />
-                            <h4
-                                style={{
-                                    color: '#919292',
-                                    textTransform: 'uppercase',
-                                    fontFamily: 'Montserrat',
-                                }}
-                            >
-                                Mini Projects
-                            </h4>
-                            <h6>Age Calculator</h6>
-                        </a>
-                        <img
-                            className="html"
-                            src="../images/html.png"
-                            alt="html"
-                        />
-                        <img
-                            className="css"
-                            src="../images/css.png"
-                            alt="css"
-                        />
-                        <img
-                            className="javascript"
-                            src="../images/javascript.png"
-                            alt="javascript"
-                        />
+                            Mini Projects
+                        </h4>
                         <a
                             href="https://getuwired-css-drop-down-menu.netlify.app/"
                             target="_blank"
@@ -376,6 +354,28 @@ class Resume extends Component {
                             className="css"
                             src="../images/css.png"
                             alt="css"
+                        />
+                        <a
+                            href="https://age-calculator-4d21eb.netlify.app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Age Calculator</h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
                         />
                         <hr
                             style={{
@@ -490,6 +490,11 @@ class Resume extends Component {
                         <img
                             className="ant"
                             src="../images/ant.png"
+                            alt="ant"
+                        />
+                        <img
+                            className="gtm"
+                            src="../images/google-tag-manager.png"
                             alt="ant"
                         />
                         <img
