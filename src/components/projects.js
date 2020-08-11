@@ -236,7 +236,49 @@ class Projects extends Component {
                                 GitHub
                             </Button>
                             <Button
-                                href="https://rock-paper-scissors-88fbb0.netlify.app/"
+                                href="https://my-rock-paper-scissors.netlify.app"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* Javascript Project 2 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/age.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            A mini app written in vanilla javascript: Enter your
+                            date of birth and a future date to find out how old
+                            you would be then.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/age-calculator"
+                                target="_blank"
+                                colored
+                            >
+                                GitHub
+                            </Button>
+                            <Button
+                                href="https://my-age-calculator.netlify.app"
                                 target="_blank"
                                 colored
                             >
@@ -380,7 +422,7 @@ class Projects extends Component {
         if (this.state.activeTab === 4) {
             return (
                 <Grid className="projects-grid-html">
-                    {/* Angular Project 4 */}
+                    {/* Vue Project 4 */}
                     <Card
                         shadow={0}
                         style={{
@@ -402,7 +444,8 @@ class Projects extends Component {
                         </CardTitle>
                         <CardText>
                             A passion project that displays the art and music of
-                            a professional Latin Percussionist around the world.
+                            a professional Latin Percussionist around on tour
+                            around the world.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -413,7 +456,7 @@ class Projects extends Component {
                                 GitHub
                             </Button>
                             <Button
-                                href="https://www.ronaldbarrios.com"
+                                href="https://ronaldbarrios.netlify.app"
                                 target="_blank"
                                 colored
                             >

@@ -74,7 +74,7 @@ class Resume extends Component {
                             alt="css"
                         />
                         <a
-                            href="https://rock-paper-scissors-88fbb0.netlify.app/"
+                            href="https://my-rock-paper-scissors.netlify.app"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -356,7 +356,7 @@ class Resume extends Component {
                             alt="css"
                         />
                         <a
-                            href="https://age-calculator-4d21eb.netlify.app"
+                            href="my-age-calculator.netlify.app"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
