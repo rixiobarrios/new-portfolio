@@ -377,6 +377,28 @@ class Resume extends Component {
                             src="../images/javascript.png"
                             alt="javascript"
                         />
+                        <a
+                            href="shopping-cart-store.netlify.app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Shopping Cart Store</h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
                         <hr
                             style={{
                                 borderTop: '3px solid #339999',

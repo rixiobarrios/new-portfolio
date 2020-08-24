@@ -286,6 +286,48 @@ class Projects extends Component {
                             </Button>
                         </CardActions>
                     </Card>
+                    {/* Javascript Project 3 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/cart.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            This is a e-commerce project in javascript: Add and
+                            remove items in your shopping cart. See price and
+                            quantity change. Hit checkout!
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/shopping-cart-store"
+                                target="_blank"
+                                colored
+                            >
+                                GitHub
+                            </Button>
+                            <Button
+                                href="https://shopping-cart-store.netlify.app"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
                 </Grid>
             );
         }
