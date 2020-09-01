@@ -6,7 +6,6 @@
 
 Here is a version of the previous portfolio made as a lad exercise during our early days at General Assembly.
 
--   [Lab Repository by General Assembly](https://www.donothavealink.com)
 -   [Early Portfolio Link](https://rixiobarrios.github.io/)
 
 **What Makes a Good Developer Portfolio?**
