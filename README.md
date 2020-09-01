@@ -1,6 +1,6 @@
 <img width="746" src="https://user-images.githubusercontent.com/55994508/81238789-8ffa5400-8fc8-11ea-8883-52f19ca46972.png" alt="logo" style="display: block; margin: 0 auto" />
 
-# New Software Engineer Portfolio by Rixio Barrios
+# New Software Engineer | Web Developer Portfolio
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6832e3d4-91f8-496d-a75d-60f77ff60e71/deploy-status)](https://app.netlify.com/sites/gallant-pare-febd5f/deploys)
 
