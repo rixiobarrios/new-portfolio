@@ -328,6 +328,48 @@ class Projects extends Component {
                             </Button>
                         </CardActions>
                     </Card>
+                    {/* Javascript Project 4 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/fetch.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            This is a web service exercise for Fetch Rewards:
+                            Returns a boolean to indicate whether a word is a
+                            pyramid word.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/fetch-rewards-is-pyramid-word"
+                                target="_blank"
+                                colored
+                            >
+                                GitHub
+                            </Button>
+                            <Button
+                                href="https://is-pyramid-word.herokuapp.com/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
                 </Grid>
             );
         }
