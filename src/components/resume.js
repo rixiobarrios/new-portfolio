@@ -97,7 +97,7 @@ class Resume extends Component {
                         />
                         <br></br>
                         <a
-                            href="http://cocktail-recipe-app.herokuapp.com/"
+                            href="https://cocktail-recipe-app.herokuapp.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -356,7 +356,7 @@ class Resume extends Component {
                             alt="css"
                         />
                         <a
-                            href="my-age-calculator.netlify.app"
+                            href="https://my-age-calculator.netlify.app"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -378,7 +378,7 @@ class Resume extends Component {
                             alt="javascript"
                         />
                         <a
-                            href="shopping-cart-store.netlify.app"
+                            href="https://shopping-cart-store.netlify.app"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -398,6 +398,28 @@ class Resume extends Component {
                             className="javascript"
                             src="../images/javascript.png"
                             alt="javascript"
+                        />
+                        <a
+                            href="https://is-pyramid-word.herokuapp.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Is Pyramid Word</h6>
+                        </a>
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
+                        <img
+                            className="express"
+                            src="../images/express.png"
+                            alt="express"
+                        />
+                        <img
+                            className="cors"
+                            src="../images/cors.png"
+                            alt="cors"
                         />
                         <hr
                             style={{
