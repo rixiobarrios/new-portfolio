@@ -407,11 +407,6 @@ class Resume extends Component {
                             <h6>Is Pyramid Word</h6>
                         </a>
                         <img
-                            className="javascript"
-                            src="../images/javascript.png"
-                            alt="javascript"
-                        />
-                        <img
                             className="express"
                             src="../images/express.png"
                             alt="express"
@@ -420,6 +415,11 @@ class Resume extends Component {
                             className="cors"
                             src="../images/cors.png"
                             alt="cors"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
                         />
                         <hr
                             style={{
