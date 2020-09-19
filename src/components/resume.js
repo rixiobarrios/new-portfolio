@@ -278,7 +278,7 @@ class Resume extends Component {
                             alt="sequelize"
                         />
                         <a
-                            href="https://www.ronaldbarrios.com/"
+                            href="https://ronald-barrios.web.app/home"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -581,7 +581,6 @@ class Resume extends Component {
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <h2>Experience</h2>
-
                         <Experience
                             startYear={2020}
                             endYear="Present"
@@ -589,7 +588,6 @@ class Resume extends Component {
                             jobName="Software Engineer Intern"
                             jobDescription="Assisting in the creation of websites and web applications for marketing clients using various frameworks. "
                         />
-
                         <Experience
                             startYear={2019}
                             endYear={2020}
@@ -597,7 +595,6 @@ class Resume extends Component {
                             jobName="Web Development Engineer Fellow"
                             jobDescription="Acquired competitive abilities in full stack web development. Created applications using the latest technologies in software engineering and development. "
                         />
-
                         <Experience
                             startYear={2008}
                             endYear={2019}
@@ -607,7 +604,6 @@ class Resume extends Component {
                         />
                         <hr style={{ borderTop: '3px solid #339999' }} />
                         <h2>Education</h2>
-
                         <Education
                             startYear={2019}
                             endYear={2020}
@@ -617,7 +613,6 @@ class Resume extends Component {
                         />
                         <hr style={{ borderTop: '3px solid #339999' }} />
                         <h2>Volunteer Experience</h2>
-
                         <Volunteer
                             startYear={2020}
                             endYear="Present"
@@ -625,7 +620,6 @@ class Resume extends Component {
                             jobName="Software Engineer"
                             jobDescription="FightPandemics is an altruistic platform created in the wake of COVID-19 that connects people and organizations in need of help with those that can provide it. In fostering these vital connections, we empower communities to respond more quickly and effectively to the crisis. Our vision is to create a world where humans are more resilient to emergencies. We are a global group of volunteers that came together to make a difference and are actively looking for other highly-dedicated individuals to join us."
                         />
-
                         <Volunteer
                             startYear={2020}
                             endYear="Present"
@@ -634,6 +628,62 @@ class Resume extends Component {
                             jobDescription="Responsible for the coding, design and layout of the organization's website. Partially in charge of other areas like IT support, digital marketing and social media administration."
                         />
                         <hr style={{ borderTop: '3px solid #339999' }} />
+                        <h2>Skills</h2>
+                        <img
+                            className="aws"
+                            src="../images/aws.png"
+                            alt="aws"
+                        />
+                        <img
+                            className="vscode"
+                            src="../images/vscode.png"
+                            alt="vscode"
+                        />
+                        <img
+                            className="surge"
+                            src="../images/surge.png"
+                            alt="surge"
+                        />
+                        <img
+                            className="npm"
+                            src="../images/npm.png"
+                            alt="npm"
+                        />
+                        <img
+                            className="git"
+                            src="../images/git.png"
+                            alt="git"
+                        />
+                        <img
+                            className="netlify"
+                            src="../images/netlify.png"
+                            alt="netlify"
+                        />
+                        <img
+                            className="codepen"
+                            src="../images/codepen.png"
+                            alt="codepen"
+                        />
+                        <img
+                            className="postman"
+                            src="../images/postman.png"
+                            alt="postman"
+                        />
+                        <img
+                            className="firebase"
+                            src="../images/firebase.png"
+                            alt="firebase"
+                        />
+                        <img
+                            className="heroku"
+                            src="../images/heroku.png"
+                            alt="heroku"
+                        />
+                        <img
+                            className="github"
+                            src="../images/github.png"
+                            alt="github"
+                        />
                     </Cell>
                 </Grid>
             </div>

@@ -175,6 +175,21 @@
 .gmapi {
     height: 50px;
 }
+
+.github,
+.heroku,
+.firebase,
+.postman,
+.codepen,
+.netlify,
+.git,
+.npm,
+.surge,
+.vscode,
+.aws {
+    height: 80px;
+}
+
 /* About Me Page CSS */
 .about-body {
     margin-bottom: 10px;

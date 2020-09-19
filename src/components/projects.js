@@ -540,7 +540,7 @@ class Projects extends Component {
                                 GitHub
                             </Button>
                             <Button
-                                href="https://ronaldbarrios.netlify.app"
+                                href="https://ronald-barrios.web.app/home"
                                 target="_blank"
                                 colored
                             >
