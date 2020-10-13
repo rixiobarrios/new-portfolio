@@ -684,6 +684,16 @@ class Resume extends Component {
                             src="../images/github.png"
                             alt="github"
                         />
+                        <img
+                            className="docker"
+                            src="../images/docker.png"
+                            alt="docker"
+                        />
+                        <img
+                            className="twilio"
+                            src="../images/twilio.png"
+                            alt="twilio"
+                        />
                     </Cell>
                 </Grid>
             </div>

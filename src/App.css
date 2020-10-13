@@ -186,7 +186,9 @@
 .npm,
 .surge,
 .vscode,
-.aws {
+.aws,
+.docker,
+.twilio {
     height: 80px;
 }
 
