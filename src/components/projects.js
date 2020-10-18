@@ -146,7 +146,7 @@ class Projects extends Component {
                                 GitHub
                             </Button>
                             <Button
-                                href="https://forfoodsake.herokuapp.com/"
+                                href="https://forfoodsake.web.app/"
                                 target="_blank"
                                 colored
                             >

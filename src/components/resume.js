@@ -186,7 +186,7 @@ class Resume extends Component {
                             alt="mongoose"
                         />
                         <a
-                            href="https://forfoodsake.herokuapp.com/"
+                            href="https://forfoodsake.web.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
