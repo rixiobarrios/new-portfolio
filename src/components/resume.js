@@ -400,6 +400,28 @@ class Resume extends Component {
                             alt="javascript"
                         />
                         <a
+                            href="https://tandem-trivia-questions.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Trivia Game</h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
+                        <a
                             href="https://is-pyramid-word.herokuapp.com/"
                             target="_blank"
                             rel="noopener noreferrer"
