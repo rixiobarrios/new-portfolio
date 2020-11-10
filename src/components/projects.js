@@ -370,7 +370,6 @@ class Projects extends Component {
                             </Button>
                         </CardActions>
                     </Card>
-
                     {/* Javascript Project 5 */}
                     <Card
                         shadow={0}
@@ -543,13 +542,55 @@ class Projects extends Component {
                             </Button>
                         </CardActions>
                     </Card>
+                    {/* HTML/CSS Project 3 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/techtonic.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            A mockup assessment created out of pure CSS and
+                            HTML. This single file was design for Techtonic
+                            Technologies
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/techtonic-apprenticeship-initial-pre-work"
+                                target="_blank"
+                                colored
+                            >
+                                GitHub
+                            </Button>
+                            <Button
+                                href="https://mock-up-exercise.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
                 </Grid>
             );
         }
         if (this.state.activeTab === 4) {
             return (
-                <Grid className="projects-grid-html">
-                    {/* Vue Project 4 */}
+                <Grid className="projects-grid-angular">
+                    {/* Angular Project 1 */}
                     <Card
                         shadow={0}
                         style={{

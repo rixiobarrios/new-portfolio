@@ -339,6 +339,23 @@ class Resume extends Component {
                             Mini Projects
                         </h4>
                         <a
+                            href="https://mock-up-exercise.netlify.app//"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Mockup Exercise</h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
+                        <a
                             href="https://getuwired-css-drop-down-menu.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
