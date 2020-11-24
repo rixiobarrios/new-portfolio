@@ -78,7 +78,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>Rock Paper Scissors</h6>
+                            <h6>GA #1: Rock Paper Scissors</h6>
                         </a>
                         <img
                             className="html"
@@ -101,7 +101,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>Elixir: Cocktail Recipe</h6>
+                            <h6>GA #2: Elixir: Cocktail Recipe</h6>
                         </a>
                         <img
                             className="html"
@@ -133,7 +133,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>Console.love</h6>
+                            <h6>GA #3: Console.love</h6>
                         </a>
                         <img
                             className="html"
@@ -190,7 +190,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>For Food Sake</h6>
+                            <h6>GA #4: For Food Sake</h6>
                         </a>
                         <img
                             className="html"
@@ -282,7 +282,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>Latin Percussionist</h6>
+                            <h6>GA #5: Latin Percussionist</h6>
                         </a>
                         <img
                             className="angular"
@@ -343,7 +343,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>Mockup Exercise</h6>
+                            <h6>Techtonic: Mockup Exercise</h6>
                         </a>
                         <img
                             className="html"
@@ -360,7 +360,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>CSS Drop Down Menu</h6>
+                            <h6>GetUWired: CSS Drop Down Menu</h6>
                         </a>
                         <img
                             className="html"
@@ -399,7 +399,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>Shopping Cart Store</h6>
+                            <h6>Shopping Cart</h6>
                         </a>
                         <img
                             className="html"
@@ -421,7 +421,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>Trivia Game</h6>
+                            <h6>Tandem: Trivia Game</h6>
                         </a>
                         <img
                             className="html"
@@ -443,7 +443,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>Is Pyramid Word</h6>
+                            <h6>Fetch Rewards: Is Pyramid Word</h6>
                         </a>
                         <img
                             className="express"
@@ -674,6 +674,11 @@ class Resume extends Component {
                         <hr style={{ borderTop: '3px solid #339999' }} />
                         <h2>Skills</h2>
                         <img
+                            className="google-developers"
+                            src="../images/google-developers.png"
+                            alt="google-developers"
+                        />
+                        <img
                             className="aws"
                             src="../images/aws.png"
                             alt="aws"
@@ -739,9 +744,9 @@ class Resume extends Component {
                             alt="twilio"
                         />
                         <img
-                            className="photoshop"
-                            src="../images/photoshop.png"
-                            alt="photoshop"
+                            className="postgresql"
+                            src="../images/postgresql.png"
+                            alt="postgresql"
                         />
                     </Cell>
                 </Grid>
