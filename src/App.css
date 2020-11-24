@@ -188,7 +188,8 @@
 .vscode,
 .aws,
 .docker,
-.twilio {
+.twilio,
+.photoshop {
     height: 80px;
 }
 

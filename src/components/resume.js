@@ -478,6 +478,11 @@ class Resume extends Component {
                             alt="css"
                         />
                         <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
+                        <img
                             className="react"
                             src="../images/react.png"
                             alt="react"
@@ -517,38 +522,6 @@ class Resume extends Component {
                             className="wordpress"
                             src="../images/wordpress.png"
                             alt="wordpress"
-                        />
-                        <a
-                            href="https://richcapitalconcepts.org/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <h6>Rich Capital Concepts</h6>
-                        </a>
-                        <img
-                            className="html"
-                            src="../images/html.png"
-                            alt="html"
-                        />
-                        <img
-                            className="css"
-                            src="../images/css.png"
-                            alt="css"
-                        />
-                        <img
-                            className="javascript"
-                            src="../images/javascript.png"
-                            alt="javascript"
-                        />
-                        <img
-                            className="react"
-                            src="../images/react.png"
-                            alt="react"
-                        />
-                        <img
-                            className="material-ui"
-                            src="../images/material-ui.png"
-                            alt="material-ui"
                         />
                         <a
                             href="https://fightpandemics.com/"
@@ -764,6 +737,11 @@ class Resume extends Component {
                             className="twilio"
                             src="../images/twilio.png"
                             alt="twilio"
+                        />
+                        <img
+                            className="photoshop"
+                            src="../images/photoshop.png"
+                            alt="photoshop"
                         />
                     </Cell>
                 </Grid>
