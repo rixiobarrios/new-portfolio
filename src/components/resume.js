@@ -339,7 +339,7 @@ class Resume extends Component {
                             Mini Projects
                         </h4>
                         <a
-                            href="https://mock-up-exercise.netlify.app//"
+                            href="https://mock-up-exercise.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -459,6 +459,38 @@ class Resume extends Component {
                             className="javascript"
                             src="../images/javascript.png"
                             alt="javascript"
+                        />
+                        <a
+                            href="https://securitron.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Securitron</h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
+                        <img
+                            className="react"
+                            src="../images/react.png"
+                            alt="react"
+                        />
+                        <img
+                            className="auth0"
+                            src="../images/auth0.png"
+                            alt="auth0"
+                        />
+                        <img
+                            className="material-ui"
+                            src="../images/material-ui.png"
+                            alt="material-ui"
                         />
                         <hr
                             style={{
