@@ -139,7 +139,6 @@
 .react,
 .react-router,
 .nodejs,
-.postgresql,
 .angular,
 .jquery,
 .becrypt,
@@ -188,7 +187,9 @@
 .vscode,
 .aws,
 .docker,
-.twilio {
+.twilio,
+.postgresql,
+.google-developers {
     height: 80px;
 }
 
