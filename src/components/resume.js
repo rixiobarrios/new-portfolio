@@ -374,35 +374,35 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>FCC#1: Tribute Page</h6>
+                            <h6>FCC #1: Tribute Page</h6>
                         </a>
                         <a
                             href="https://freecodecamp-survey-form1.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>FCC#2: Survey Form</h6>
+                            <h6>FCC #2: Survey Form</h6>
                         </a>
                         <a
                             href="https://freecodecamp-product-landing-page.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>FCC#3: Product Landing Page</h6>
+                            <h6>FCC #3: Product Landing Page</h6>
                         </a>
                         <a
                             href="https://freecodecamp-technical-documentation-page.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>FCC#4: Technical Documentation Page</h6>
+                            <h6>FCC #4: Technical Documentation Page</h6>
                         </a>
                         <a
                             href="https://freecodecamp-personal-portfolio.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>FCC#5: Personal Portfolio Webpage</h6>
+                            <h6>FCC #5: Personal Portfolio Webpage</h6>
                         </a>
                         <img
                             className="html"
@@ -714,7 +714,7 @@ class Resume extends Component {
                             jobDescription="FightPandemics is an altruistic platform created in the wake of COVID-19 that connects people and organizations in need of help with those that can provide it. In fostering these vital connections, we empower communities to respond more quickly and effectively to the crisis. Our vision is to create a world where humans are more resilient to emergencies. We are a global group of volunteers that came together to make a difference and are actively looking for other highly-dedicated individuals to join us."
                         />
                         <Volunteer
-                            startYear={2020}
+                            startYear={2021}
                             endYear="Present"
                             jobCompany="Anti-Eviction Mapping Project"
                             jobName="Software Engineer"
@@ -722,11 +722,6 @@ class Resume extends Component {
                         />
                         <hr style={{ borderTop: '3px solid #339999' }} />
                         <h2>Skills</h2>
-                        <img
-                            className="google-developers"
-                            src="../images/google-developers.png"
-                            alt="google-developers"
-                        />
                         <img
                             className="aws"
                             src="../images/aws.png"

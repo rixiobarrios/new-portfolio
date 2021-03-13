@@ -633,6 +633,213 @@ class Projects extends Component {
                             </Button>
                         </CardActions>
                     </Card>
+                    {/* HTML/CSS Project 4 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/freecodecamp.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            This tribute page is a responsive web design project
+                            built as an assignment for freecodecamp.org.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/freecodecamp-tribute-page"
+                                target="_blank"
+                                colored
+                            >
+                                GitHub
+                            </Button>
+                            <Button
+                                href="https://freecodecamp-tribute-page1.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* HTML/CSS Project 5 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/freecodecamp.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            This survey form page is a responsive web design
+                            project built as an assignment for freecodecamp.org.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/freecodecamp-survey-form"
+                                target="_blank"
+                                colored
+                            >
+                                GitHub
+                            </Button>
+                            <Button
+                                href="https://freecodecamp-survey-form1.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* HTML/CSS Project 6 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/freecodecamp.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            This product landing page is a responsive web design
+                            project built as an assignment for freecodecamp.org.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/freecodecamp-product-landing-page"
+                                target="_blank"
+                                colored
+                            >
+                                GitHub
+                            </Button>
+                            <Button
+                                href="https://freecodecamp-product-landing-page.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* HTML/CSS Project 7 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/freecodecamp.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            This technical documentation page is a responsive
+                            web design project built as an assignment for
+                            freecodecamp.org.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/freecodecamp-technical-documentation-page"
+                                target="_blank"
+                                colored
+                            >
+                                GitHub
+                            </Button>
+                            <Button
+                                href="https://freecodecamp-technical-documentation-page.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* HTML/CSS Project 8 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/freecodecamp.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            This personal portfolio webpage is a responsive web
+                            design project built as an assignment for
+                            freecodecamp.org.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/freecodecamp-personal-portfolio-webpage"
+                                target="_blank"
+                                colored
+                            >
+                                GitHub
+                            </Button>
+                            <Button
+                                href="https://freecodecamp-personal-portfolio-webpage.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
                 </Grid>
             );
         }
