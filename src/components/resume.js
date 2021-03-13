@@ -57,23 +57,6 @@ class Resume extends Component {
                             Projects
                         </h4>
                         <a
-                            href="https://rixiobarrios.github.io/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <h6>Previous Portfolio</h6>
-                        </a>
-                        <img
-                            className="html"
-                            src="../images/html.png"
-                            alt="html"
-                        />
-                        <img
-                            className="css"
-                            src="../images/css.png"
-                            alt="css"
-                        />
-                        <a
                             href="https://my-rock-paper-scissors.netlify.app"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -339,28 +322,60 @@ class Resume extends Component {
                             Mini Projects
                         </h4>
                         <a
+                            href="https://rixiobarrios.github.io/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Previous Portfolio</h6>
+                        </a>
+                        <a
                             href="https://mock-up-exercise.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <h6>Techtonic: Mockup Exercise</h6>
                         </a>
-                        <img
-                            className="html"
-                            src="../images/html.png"
-                            alt="html"
-                        />
-                        <img
-                            className="css"
-                            src="../images/css.png"
-                            alt="css"
-                        />
                         <a
                             href="https://getuwired-css-drop-down-menu.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <h6>GetUWired: CSS Drop Down Menu</h6>
+                        </a>
+                        <a
+                            href="https://freecodecamp-tribute-page1.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>FCC#1: Tribute Page</h6>
+                        </a>
+                        <a
+                            href="https://freecodecamp-survey-form1.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>FCC#2: Survey Form</h6>
+                        </a>
+                        <a
+                            href="https://freecodecamp-product-landing-page.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>FCC#3: Product Landing Page</h6>
+                        </a>
+                        <a
+                            href="https://freecodecamp-personal-portfolio.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>FCC#4: Personal Portfolio Webpage</h6>
+                        </a>
+                        <a
+                            href="https://freecodecamp-technical-documentation-page.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>FCC#3: Technical Documentation Page</h6>
                         </a>
                         <img
                             className="html"
@@ -648,6 +663,13 @@ class Resume extends Component {
                         />
                         <hr style={{ borderTop: '3px solid #339999' }} />
                         <h2>Education</h2>
+                        <Education
+                            startYear={2020}
+                            endYear={2021}
+                            schoolName="Freecodecamp.org"
+                            schoolCourse="Responsive Web Design"
+                            schoolDescription="three hundred-hour Self-guided course in responsive web design, going through responsive methods of website building using modern techniques and best practices for accessibility."
+                        />
                         <Education
                             startYear={2019}
                             endYear={2020}
