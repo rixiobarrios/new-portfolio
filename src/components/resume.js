@@ -261,11 +261,38 @@ class Resume extends Component {
                             alt="sequelize"
                         />
                         <a
+                            href="https://www.rixiobarrios.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>GA #5: Personal Portfolio</h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
+                        <img
+                            className="react"
+                            src="../images/react.png"
+                            alt="react"
+                        />
+                        <a
                             href="https://ronald-barrios.web.app/home"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>GA #5: Latin Percussionist</h6>
+                            <h6>GA #6: Latin Percussionist</h6>
                         </a>
                         <img
                             className="angular"
@@ -364,18 +391,18 @@ class Resume extends Component {
                             <h6>FCC#3: Product Landing Page</h6>
                         </a>
                         <a
-                            href="https://freecodecamp-personal-portfolio.netlify.app/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <h6>FCC#4: Personal Portfolio Webpage</h6>
-                        </a>
-                        <a
                             href="https://freecodecamp-technical-documentation-page.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>FCC#3: Technical Documentation Page</h6>
+                            <h6>FCC#4: Technical Documentation Page</h6>
+                        </a>
+                        <a
+                            href="https://freecodecamp-personal-portfolio.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>FCC#5: Personal Portfolio Webpage</h6>
                         </a>
                         <img
                             className="html"
@@ -667,14 +694,14 @@ class Resume extends Component {
                             startYear={2020}
                             endYear={2021}
                             schoolName="Freecodecamp.org"
-                            schoolCourse="Responsive Web Design"
-                            schoolDescription="three hundred-hour Self-guided course in responsive web design, going through responsive methods of website building using modern techniques and best practices for accessibility."
+                            schoolCourse="Responsive Web Design Certification"
+                            schoolDescription="Three hundred-hour Self-guided course in responsive web design, going through responsive methods of website building using modern techniques and best practices for accessibility."
                         />
                         <Education
                             startYear={2019}
                             endYear={2020}
                             schoolName="General Assembly"
-                            schoolCourse="Software Engineer Immersive"
+                            schoolCourse="Software Engineer Immersive Certification"
                             schoolDescription="Three-months of learning and using numerous techniques and technologies for optimal Web-development 400+hour full-time of a full-stack program conducted in a remote setting, providing experience with the latest front- and back-end programming languages, tools, and methodologies. Built several real-life projects individually and a few under paired programming."
                         />
                         <hr style={{ borderTop: '3px solid #339999' }} />
@@ -689,9 +716,9 @@ class Resume extends Component {
                         <Volunteer
                             startYear={2020}
                             endYear="Present"
-                            jobCompany="Rich Capital Concepts"
+                            jobCompany="Anti-Eviction Mapping Project"
                             jobName="Software Engineer"
-                            jobDescription="Responsible for the coding, design and layout of the organization's website. Partially in charge of other areas like IT support, digital marketing and social media administration."
+                            jobDescription="The Anti-Eviction Mapping Project is a data-visualization, critical cartography, and multimedia storytelling collective documenting dispossession and resistance upon gentrifying landscapes."
                         />
                         <hr style={{ borderTop: '3px solid #339999' }} />
                         <h2>Skills</h2>
