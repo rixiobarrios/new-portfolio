@@ -398,7 +398,7 @@ class Resume extends Component {
                             <h6>FCC #4: Technical Documentation Page</h6>
                         </a>
                         <a
-                            href="https://freecodecamp-personal-portfolio.netlify.app/"
+                            href="https://freecodecamp-personal-portfolio-webpage.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
