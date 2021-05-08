@@ -287,7 +287,7 @@ class Resume extends Component {
                             src="../images/react.png"
                             alt="react"
                         />
-                        <a
+                        {/* <a
                             href="https://ronald-barrios.web.app/home"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -333,7 +333,7 @@ class Resume extends Component {
                             className="protractor"
                             src="../images/protractor.png"
                             alt="protractor"
-                        />
+                        /> */}
                         <hr
                             style={{
                                 borderTop: '3px solid #339999',
