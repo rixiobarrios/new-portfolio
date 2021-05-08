@@ -553,7 +553,7 @@ class Resume extends Component {
                         >
                             Collaborations
                         </h4>
-                        <a
+                        {/* <a
                             href="https://www.orinocotribune.com/"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -564,7 +564,7 @@ class Resume extends Component {
                             className="wordpress"
                             src="../images/wordpress.png"
                             alt="wordpress"
-                        />
+                        /> */}
                         <a
                             href="https://fightpandemics.com/"
                             target="_blank"
