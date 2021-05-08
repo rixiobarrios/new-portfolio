@@ -30,17 +30,7 @@ class Contact extends Component {
                     </Cell>
                     <Cell col={6}>
                         <h2>Reach out!</h2>
-                        <hr />{' '}
-                        <div style={{ textAlign: 'center' }}>
-                            {/* <img
-                                src="../images/logo.png"
-                                alt="avatar"
-                                style={{
-                                    height: '300px',
-                                    padding: '0 auto',
-                                }}
-                            /> */}
-                        </div>
+                        <hr /> <div style={{ textAlign: 'center' }}></div>
                         <div className="contact-list">
                             <List>
                                 <ListItem>

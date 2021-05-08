@@ -463,46 +463,6 @@ class Projects extends Component {
                     </Card>
                 </Grid>
             );
-            // }
-            // if (this.state.activeTab === 2) {
-            //     return (
-            //         <Grid className="projects-grid-wordpress">
-            //             {/* Wordpress Project 1 */}
-            //             <Card
-            //                 shadow={0}
-            //                 style={{
-            //                     minWidth: '450',
-            //                     margin: '20px auto',
-            //                     borderRadius: '15px',
-            //                 }}
-            //             >
-            //                 <CardTitle
-            //                     style={{
-            //                         color: '#fff',
-            //                         height: '176px',
-            //                         textTransform: 'uppercase',
-            //                         background:
-            //                             'url("../images/orinoco.png") center / cover',
-            //                     }}
-            //                 >
-            //                     .
-            //                 </CardTitle>
-            //                 <CardText>
-            //                     An alternative news media outlet with daily updates
-            //                     and opinion pieces. Please support us! Donate now!
-            //                 </CardText>
-            //                 <CardActions style={{ textAlign: 'center' }} border>
-            //                     <Button
-            //                         href="https://orinocotribune.com/"
-            //                         target="_blank"
-            //                         colored
-            //                     >
-            //                         Website
-            //                     </Button>
-            //                 </CardActions>
-            //             </Card>
-            //         </Grid>
-            //     );
         }
         if (this.state.activeTab === 2) {
             return (
@@ -841,54 +801,6 @@ class Projects extends Component {
                         </CardActions>
                     </Card>
                 </Grid>
-                //     );
-                // }
-                // if (this.state.activeTab === 4) {
-                //     return (
-                //         <Grid className="projects-grid-angular">
-                //             {/* Angular Project 1 */}
-                //             <Card
-                //                 shadow={0}
-                //                 style={{
-                //                     minWidth: '450',
-                //                     margin: '20px auto',
-                //                     borderRadius: '15px',
-                //                 }}
-                //             >
-                //                 <CardTitle
-                //                     style={{
-                //                         color: '#fff',
-                //                         height: '176px',
-                //                         textTransform: 'uppercase',
-                //                         background:
-                //                             'url("../images/latin.png") center / cover',
-                //                     }}
-                //                 >
-                //                     .
-                //                 </CardTitle>
-                //                 <CardText>
-                //                     A passion project that displays the art and music of
-                //                     a professional Latin Percussionist around on tour
-                //                     around the world.
-                //                 </CardText>
-                //                 <CardActions style={{ textAlign: 'center' }} border>
-                //                     <Button
-                //                         href="https://github.com/rixiobarrios/ronaldbarrios"
-                //                         target="_blank"
-                //                         colored
-                //                     >
-                //                         GitHub
-                //                     </Button>
-                //                     <Button
-                //                         href="https://ronald-barrios.web.app/home"
-                //                         target="_blank"
-                //                         colored
-                //                     >
-                //                         Website
-                //                     </Button>
-                //                 </CardActions>
-                //             </Card>
-                //         </Grid>
             );
         } else if (this.state.activeTab === 1) {
             return (
@@ -896,24 +808,12 @@ class Projects extends Component {
                     <h1>This is Javascript</h1>
                 </div>
             );
-            // } else if (this.state.activeTab === 2) {
-            //     return (
-            //         <div>
-            //             <h1>This is Wordpress</h1>
-            //         </div>
-            //     );
         } else if (this.state.activeTab === 2) {
             return (
                 <div>
                     <h1>This is HTML/CSS</h1>
                 </div>
             );
-            // } else if (this.state.activeTab === 4) {
-            //     return (
-            //         <div>
-            //             <h1>This is Angular</h1>
-            //         </div>
-            //     );
         }
     }
 
@@ -927,9 +827,7 @@ class Projects extends Component {
                 >
                     <Tab>React</Tab>
                     <Tab>Javascript</Tab>
-                    {/* <Tab>Wordpress</Tab> */}
                     <Tab>HTML/CSS</Tab>
-                    {/* <Tab>Angular</Tab> */}
                 </Tabs>
 
                 <Grid>

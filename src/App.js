@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 class App extends Component {
     render() {
@@ -22,11 +22,10 @@ class App extends Component {
                                 position: 'relative',
                             }}
                         >
-                            <Link to="/">Home</Link>
-                            <Link to="/resume">Resume</Link>
-                            <Link to="/aboutme">About Me</Link>
-                            <Link to="/projects">Projects</Link>
-                            <Link to="/contact">Contact</Link>
+                            <NavLink to="/">Home</NavLink>
+                            <NavLink to="/resume">Resume</NavLink>
+                            <NavLink to="/aboutme">About Me</NavLink>
+                            <NavLink to="/projects">Projects</NavLink>
                         </Navigation>
                     </Header>
                     <div className="sticky-nav"></div>

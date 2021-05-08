@@ -8,6 +8,11 @@
     align-items: center !important;
 }
 
+/* .active {
+    background-color: #f6f9f9;
+    color: #339999 !important;
+} */
+
 .mdl-layout__header {
     justify-content: center !important;
     flex-direction: row !important;
@@ -110,13 +115,11 @@
     color: #339999;
 }
 .resume-left-col {
-    /* border: 1px solid black; */
     font-family: 'Montserrat';
     color: #919292;
 }
 .resume-left-col h2 {
     margin: 0 auto;
-    /* padding-top: 1.2em !important; */
 }
 
 .resume-left-col h6 {
@@ -401,12 +404,6 @@
         margin-top: -30px;
         border-bottom: -20px;
     }
-    /* .mdl-tabs__tab-bar {
-        position: fixed;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-} */
     .projects-tabs a {
         font-size: 12px;
         text-align: center;

@@ -287,53 +287,6 @@ class Resume extends Component {
                             src="../images/react.png"
                             alt="react"
                         />
-                        {/* <a
-                            href="https://ronald-barrios.web.app/home"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <h6>GA #6: Latin Percussionist</h6>
-                        </a>
-                        <img
-                            className="angular"
-                            src="../images/angular.png"
-                            alt="angular"
-                        />
-                        <img
-                            className="typescrypt"
-                            src="../images/typescrypt.png"
-                            alt="typescrypt"
-                        />
-                        <img
-                            className="jquery"
-                            src="../images/jquery.png"
-                            alt="jquery"
-                        />
-                        <img
-                            className="bootstrap"
-                            src="../images/bootstrap.png"
-                            alt="bootstrap"
-                        />
-                        <img
-                            className="rxjs"
-                            src="../images/rxjs.png"
-                            alt="rxjs"
-                        />
-                        <img
-                            className="jasmine"
-                            src="../images/jasmine.png"
-                            alt="jasmine"
-                        />
-                        <img
-                            className="karma"
-                            src="../images/karma.png"
-                            alt="karma"
-                        />
-                        <img
-                            className="protractor"
-                            src="../images/protractor.png"
-                            alt="protractor"
-                        /> */}
                         <hr
                             style={{
                                 borderTop: '3px solid #339999',
@@ -421,21 +374,6 @@ class Resume extends Component {
                         >
                             <h6>Age Calculator</h6>
                         </a>
-                        <img
-                            className="html"
-                            src="../images/html.png"
-                            alt="html"
-                        />
-                        <img
-                            className="css"
-                            src="../images/css.png"
-                            alt="css"
-                        />
-                        <img
-                            className="javascript"
-                            src="../images/javascript.png"
-                            alt="javascript"
-                        />
                         <a
                             href="https://shopping-cart-store.netlify.app"
                             target="_blank"
@@ -443,21 +381,6 @@ class Resume extends Component {
                         >
                             <h6>Shopping Cart</h6>
                         </a>
-                        <img
-                            className="html"
-                            src="../images/html.png"
-                            alt="html"
-                        />
-                        <img
-                            className="css"
-                            src="../images/css.png"
-                            alt="css"
-                        />
-                        <img
-                            className="javascript"
-                            src="../images/javascript.png"
-                            alt="javascript"
-                        />
                         <a
                             href="https://tandem-trivia-questions.netlify.app/"
                             target="_blank"
@@ -553,18 +476,6 @@ class Resume extends Component {
                         >
                             Collaborations
                         </h4>
-                        {/* <a
-                            href="https://www.orinocotribune.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <h6>Orinoco Tribune</h6>
-                        </a>
-                        <img
-                            className="wordpress"
-                            src="../images/wordpress.png"
-                            alt="wordpress"
-                        /> */}
                         <a
                             href="https://fightpandemics.com/"
                             target="_blank"
