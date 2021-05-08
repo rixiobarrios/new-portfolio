@@ -463,48 +463,48 @@ class Projects extends Component {
                     </Card>
                 </Grid>
             );
+            // }
+            // if (this.state.activeTab === 2) {
+            //     return (
+            //         <Grid className="projects-grid-wordpress">
+            //             {/* Wordpress Project 1 */}
+            //             <Card
+            //                 shadow={0}
+            //                 style={{
+            //                     minWidth: '450',
+            //                     margin: '20px auto',
+            //                     borderRadius: '15px',
+            //                 }}
+            //             >
+            //                 <CardTitle
+            //                     style={{
+            //                         color: '#fff',
+            //                         height: '176px',
+            //                         textTransform: 'uppercase',
+            //                         background:
+            //                             'url("../images/orinoco.png") center / cover',
+            //                     }}
+            //                 >
+            //                     .
+            //                 </CardTitle>
+            //                 <CardText>
+            //                     An alternative news media outlet with daily updates
+            //                     and opinion pieces. Please support us! Donate now!
+            //                 </CardText>
+            //                 <CardActions style={{ textAlign: 'center' }} border>
+            //                     <Button
+            //                         href="https://orinocotribune.com/"
+            //                         target="_blank"
+            //                         colored
+            //                     >
+            //                         Website
+            //                     </Button>
+            //                 </CardActions>
+            //             </Card>
+            //         </Grid>
+            //     );
         }
         if (this.state.activeTab === 2) {
-            return (
-                <Grid className="projects-grid-wordpress">
-                    {/* Wordpress Project 1 */}
-                    <Card
-                        shadow={0}
-                        style={{
-                            minWidth: '450',
-                            margin: '20px auto',
-                            borderRadius: '15px',
-                        }}
-                    >
-                        <CardTitle
-                            style={{
-                                color: '#fff',
-                                height: '176px',
-                                textTransform: 'uppercase',
-                                background:
-                                    'url("../images/orinoco.png") center / cover',
-                            }}
-                        >
-                            .
-                        </CardTitle>
-                        <CardText>
-                            An alternative news media outlet with daily updates
-                            and opinion pieces. Please support us! Donate now!
-                        </CardText>
-                        <CardActions style={{ textAlign: 'center' }} border>
-                            <Button
-                                href="https://orinocotribune.com/"
-                                target="_blank"
-                                colored
-                            >
-                                Website
-                            </Button>
-                        </CardActions>
-                    </Card>
-                </Grid>
-            );
-        }
-        if (this.state.activeTab === 3) {
             return (
                 <Grid className="projects-grid-html">
                     {/* HTML/CSS Project 1 */}
@@ -896,13 +896,13 @@ class Projects extends Component {
                     <h1>This is Javascript</h1>
                 </div>
             );
+            // } else if (this.state.activeTab === 2) {
+            //     return (
+            //         <div>
+            //             <h1>This is Wordpress</h1>
+            //         </div>
+            //     );
         } else if (this.state.activeTab === 2) {
-            return (
-                <div>
-                    <h1>This is Wordpress</h1>
-                </div>
-            );
-        } else if (this.state.activeTab === 3) {
             return (
                 <div>
                     <h1>This is HTML/CSS</h1>
@@ -927,9 +927,9 @@ class Projects extends Component {
                 >
                     <Tab>React</Tab>
                     <Tab>Javascript</Tab>
-                    <Tab>Wordpress</Tab>
+                    {/* <Tab>Wordpress</Tab> */}
                     <Tab>HTML/CSS</Tab>
-                    <Tab>Angular</Tab>
+                    {/* <Tab>Angular</Tab> */}
                 </Tabs>
 
                 <Grid>
