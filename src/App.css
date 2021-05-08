@@ -8,10 +8,10 @@
     align-items: center !important;
 }
 
-/* .active {
+.active {
     background-color: #f6f9f9;
     color: #339999 !important;
-} */
+}
 
 .mdl-layout__header {
     justify-content: center !important;

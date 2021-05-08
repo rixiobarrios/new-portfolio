@@ -22,10 +22,30 @@ class App extends Component {
                                 position: 'relative',
                             }}
                         >
-                            <NavLink to="/">Home</NavLink>
-                            <NavLink to="/resume">Resume</NavLink>
-                            <NavLink to="/aboutme">About Me</NavLink>
-                            <NavLink to="/projects">Projects</NavLink>
+                            <NavLink exact activeClassName="active" to="/">
+                                Home
+                            </NavLink>
+                            <NavLink
+                                exact
+                                activeClassName="active"
+                                to="/resume"
+                            >
+                                Resume
+                            </NavLink>
+                            <NavLink
+                                exact
+                                activeClassName="active"
+                                to="/aboutme"
+                            >
+                                About Me
+                            </NavLink>
+                            <NavLink
+                                exact
+                                activeClassName="active"
+                                to="/projects"
+                            >
+                                Projects
+                            </NavLink>
                         </Navigation>
                     </Header>
                     <div className="sticky-nav"></div>
