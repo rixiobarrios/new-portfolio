@@ -267,7 +267,7 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText style={{ background: '#ffff' }}>
-                            A responsive dropdown menu with a mobile design.
+                            A responsive dropdown menu with a mobile option.
                             This react app was design as an assignment for
                             Pocket RN.
                         </CardText>
@@ -287,6 +287,55 @@ class Projects extends Component {
                             </Button>
                             <Button
                                 href="https://pocket-rn-mobile-desktop-navbar.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* React Project 7 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#ffff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                fontFamily: 'Montserrat',
+                                background:
+                                    'url(../images/hilton.png) center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText style={{ background: '#ffff' }}>
+                            A test driven weather app with Jest, Next.js and
+                            Tailwindcss. This is an assessment for The Hilton
+                            Hotels.
+                        </CardText>
+                        <CardActions
+                            style={{
+                                textAlign: 'center',
+                                background: '#ffff',
+                            }}
+                            border
+                        >
+                            <Button
+                                href="https://github.com/rixiobarrios/hilton-dev-assessment"
+                                target="_blank"
+                                colored
+                            >
+                                GitHub
+                            </Button>
+                            <Button
+                                href="https://s00gkp.sse.codesandbox.io/"
                                 target="_blank"
                                 colored
                             >
