@@ -245,6 +245,55 @@ class Projects extends Component {
                             </Button>
                         </CardActions>
                     </Card>
+                    {/* React Project 6 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#ffff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                fontFamily: 'Montserrat',
+                                background:
+                                    'url(../images/pocket.png) center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText style={{ background: '#ffff' }}>
+                            A responsive dropdown menu with a mobile design.
+                            This react app was design as an assignment for
+                            Pocket RN.
+                        </CardText>
+                        <CardActions
+                            style={{
+                                textAlign: 'center',
+                                background: '#ffff',
+                            }}
+                            border
+                        >
+                            <Button
+                                href="https://github.com/rixiobarrios/pocket-rn-mobile-desktop-navbar"
+                                target="_blank"
+                                colored
+                            >
+                                GitHub
+                            </Button>
+                            <Button
+                                href="https://pocket-rn-mobile-desktop-navbar.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
                 </Grid>
             );
         }

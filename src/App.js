@@ -46,6 +46,13 @@ class App extends Component {
                             >
                                 Projects
                             </NavLink>
+                            <NavLink
+                                exact
+                                activeClassName="active"
+                                to="/contact"
+                            >
+                                Contact
+                            </NavLink>
                         </Navigation>
                     </Header>
                     <div className="sticky-nav"></div>
