@@ -162,7 +162,7 @@
 .mocha,
 .material-ui,
 .mongoose,
-.typescrypt,
+.typescript,
 .rxjs,
 .jasmine,
 .karma,
@@ -175,7 +175,9 @@
 .uuid,
 .fastify,
 .auth0,
-.gmapi {
+.gmapi,
+.nextjs,
+.tailwindcss {
     height: 50px;
 }
 
@@ -378,12 +380,14 @@
     .mocha,
     .material-ui,
     .mongoose,
-    .typescrypt,
+    .typescript,
     .rxjs,
     .jasmine,
     .karma,
     .protractor,
-    .react-hooks {
+    .react-hooks,
+    .tailwindcss,
+    .nextjs {
         height: 60px;
     }
     .about-body {

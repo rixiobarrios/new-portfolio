@@ -462,6 +462,80 @@ class Resume extends Component {
                             src="../images/material-ui.png"
                             alt="material-ui"
                         />
+                        <a
+                            href="https://pocket-rn-mobile-desktop-navbar.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Pocket RN: Responsive Menu </h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
+                        <img
+                            className="react"
+                            src="../images/react.png"
+                            alt="react"
+                        />
+                        <a
+                            href="https://s00gkp.sse.codesandbox.io/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Hilton: Weather App </h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="tailwindcss"
+                            src="../images/tailwindcss.png"
+                            alt="tailwindcss"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
+                        <img
+                            className="typescript"
+                            src="../images/typescript.png"
+                            alt="typescript"
+                        />
+                        <img
+                            className="react"
+                            src="../images/react.png"
+                            alt="react"
+                        />
+                        <img
+                            className="react-hooks"
+                            src="../images/react-hooks.png"
+                            alt="react-hooks"
+                        />
+                        <img
+                            className="nextjs"
+                            src="../images/nextjs.png"
+                            alt="nextjs"
+                        />
+                        <img
+                            className="jest"
+                            src="../images/jest.png"
+                            alt="jest"
+                        />
                         <hr
                             style={{
                                 borderTop: '3px solid #339999',
