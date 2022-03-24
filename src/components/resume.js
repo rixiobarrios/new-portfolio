@@ -532,6 +532,11 @@ class Resume extends Component {
                             alt="nextjs"
                         />
                         <img
+                            className="nodejs"
+                            src="../images/nodejs.png"
+                            alt="nodejs"
+                        />
+                        <img
                             className="jest"
                             src="../images/jest.png"
                             alt="jest"
@@ -642,6 +647,13 @@ class Resume extends Component {
                             src="../images/mongoose.png"
                             alt="mongoose"
                         />
+                        <a
+                            href="https://antievictionmap.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Anti-Eviction Mapping Project</h6>
+                        </a>
 
                         <br></br>
                         <hr
@@ -653,8 +665,23 @@ class Resume extends Component {
                     <Cell className="resume-right-col" col={8}>
                         <h2>Experience</h2>
                         <Experience
-                            startYear={2020}
+                            startYear={2021}
                             endYear="Present"
+                            jobCompany="Upwork"
+                            jobName="Freelance Web Developer"
+                            jobDescription="I am currently seeking opportunities for freelancing work on UpWork and beyond.
+                            Please look at my projects and experience under my portfolio for more information."
+                        />
+                        <Experience
+                            startYear={2021}
+                            endYear={2021}
+                            jobCompany="Atwater, Brian & Co"
+                            jobName="Web Developer Intern"
+                            jobDescription="Contributing to the creation of digital marketing products for various clients to enhance their online visibility. Creating custom websites and web products to build brand awareness."
+                        />
+                        <Experience
+                            startYear={2020}
+                            endYear={2020}
                             jobCompany="Boxless Media"
                             jobName="Software Engineer Intern"
                             jobDescription="Assisting in the creation of websites and web applications for marketing clients using various frameworks. "
@@ -675,6 +702,13 @@ class Resume extends Component {
                         />
                         <hr style={{ borderTop: '3px solid #339999' }} />
                         <h2>Education</h2>
+                        <Education
+                            startYear={2021}
+                            endYear={2022}
+                            schoolName="Freecodecamp.org"
+                            schoolCourse="JavaScript Algorithms and Data Structures Certification"
+                            schoolDescription="Three hundred-hour Self-guided course in algorithms and data structures, going through the fundamentals of Javascript including variables, arrays, objects, loops, functions object oriented programming (OOP) and functional programming(FP). "
+                        />
                         <Education
                             startYear={2020}
                             endYear={2021}

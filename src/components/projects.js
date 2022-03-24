@@ -59,7 +59,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="http://cocktail-recipe-app.herokuapp.com/"
@@ -102,7 +102,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="http://consoledotlove.herokuapp.com/"
@@ -143,7 +143,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://forfoodsake.web.app/"
@@ -185,7 +185,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://fightpandemics.com/"
@@ -234,7 +234,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://securitron.netlify.app/"
@@ -283,7 +283,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://pocket-rn-mobile-desktop-navbar.netlify.app/"
@@ -332,7 +332,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://s00gkp.sse.codesandbox.io/"
@@ -380,7 +380,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://my-rock-paper-scissors.netlify.app"
@@ -422,7 +422,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://my-age-calculator.netlify.app"
@@ -454,9 +454,9 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            This is a e-commerce project in javascript: Add and
-                            remove items in your shopping cart. See price and
-                            quantity change. Hit checkout!
+                            An e-commerce project in javascript: Add and remove
+                            items in your shopping cart. See price and quantity
+                            change. Hit checkout!
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -464,7 +464,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://shopping-cart-store.netlify.app"
@@ -496,7 +496,7 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            This is a web service exercise for Fetch Rewards:
+                            A web service exercise assessment for Fetch Rewards:
                             Returns a boolean to indicate whether a word is a
                             pyramid word.
                         </CardText>
@@ -506,7 +506,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://is-pyramid-word.herokuapp.com/"
@@ -548,7 +548,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://tandem-trivia-questions.netlify.app/"
@@ -596,7 +596,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://rixiobarrios.github.io/"
@@ -629,8 +629,8 @@ class Projects extends Component {
                         </CardTitle>
                         <CardText>
                             A splash page and dropdown menu created out of pure
-                            CSS and HTML. This single file was design for
-                            GetUwired Internet Marketing.
+                            CSS and HTML. This was an assessment for GetUwired
+                            Internet Marketing.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -638,7 +638,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://getuwired-css-drop-down-menu.netlify.app/"
@@ -671,8 +671,8 @@ class Projects extends Component {
                         </CardTitle>
                         <CardText>
                             A mockup assessment created out of pure CSS and
-                            HTML. This single file was design for Techtonic
-                            Technologies
+                            HTML. This was an assessment for Techtonic
+                            Technologies.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -680,7 +680,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://mock-up-exercise.netlify.app/"
@@ -713,7 +713,7 @@ class Projects extends Component {
                         </CardTitle>
                         <CardText>
                             This tribute page is a responsive web design project
-                            built as an assignment for freecodecamp.org.
+                            built as an assignment for Freecodecamp.org.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -721,7 +721,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://freecodecamp-tribute-page1.netlify.app/"
@@ -754,7 +754,7 @@ class Projects extends Component {
                         </CardTitle>
                         <CardText>
                             This survey form page is a responsive web design
-                            project built as an assignment for freecodecamp.org.
+                            project built as an assignment for Freecodecamp.org.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -762,7 +762,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://freecodecamp-survey-form1.netlify.app/"
@@ -795,7 +795,7 @@ class Projects extends Component {
                         </CardTitle>
                         <CardText>
                             This product landing page is a responsive web design
-                            project built as an assignment for freecodecamp.org.
+                            project built as an assignment for Freecodecamp.org.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -803,7 +803,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://freecodecamp-product-landing-page.netlify.app/"
@@ -837,7 +837,7 @@ class Projects extends Component {
                         <CardText>
                             This technical documentation page is a responsive
                             web design project built as an assignment for
-                            freecodecamp.org.
+                            Freecodecamp.org.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -845,7 +845,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://freecodecamp-technical-documentation-page.netlify.app/"
@@ -879,7 +879,7 @@ class Projects extends Component {
                         <CardText>
                             This personal portfolio webpage is a responsive web
                             design project built as an assignment for
-                            freecodecamp.org.
+                            Freecodecamp.org.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -887,7 +887,7 @@ class Projects extends Component {
                                 target="_blank"
                                 colored
                             >
-                                GitHub
+                                Repo
                             </Button>
                             <Button
                                 href="https://freecodecamp-personal-portfolio-webpage.netlify.app/"
