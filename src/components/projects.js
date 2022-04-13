@@ -21,7 +21,7 @@ class Projects extends Component {
         if (this.state.activeTab === 0) {
             return (
                 <Grid className="projects-grid">
-                    {/* React Project 1 */}
+                    {/* React Project 7 */}
                     <Card
                         shadow={0}
                         style={{
@@ -37,15 +37,15 @@ class Projects extends Component {
                                 textTransform: 'uppercase',
                                 fontFamily: 'Montserrat',
                                 background:
-                                    'url(../images/elixir.png) center / cover',
+                                    'url(../images/hilton.png) center / cover',
                             }}
                         >
                             .
                         </CardTitle>
                         <CardText style={{ background: '#ffff' }}>
-                            A cocktail recipe page made using a third party API.
-                            There is a search bar option that will bring you to
-                            your favorite drink.
+                            A test driven weather app with Jest, Next.js and
+                            Tailwindcss. This is an assessment for The Hilton
+                            Hotels.
                         </CardText>
                         <CardActions
                             style={{
@@ -55,189 +55,14 @@ class Projects extends Component {
                             border
                         >
                             <Button
-                                href="https://github.com/rixiobarrios/cocktail-recipe"
+                                href="https://github.com/rixiobarrios/hilton-dev-assessment"
                                 target="_blank"
                                 colored
                             >
                                 Repo
                             </Button>
                             <Button
-                                href="http://cocktail-recipe-app.herokuapp.com/"
-                                target="_blank"
-                                colored
-                            >
-                                Website
-                            </Button>
-                        </CardActions>
-                    </Card>
-
-                    {/* React Project 2 */}
-                    <Card
-                        shadow={0}
-                        style={{
-                            minWidth: '450',
-                            margin: '20px auto',
-                            borderRadius: '15px',
-                        }}
-                    >
-                        <CardTitle
-                            style={{
-                                color: '#ffff',
-                                height: '176px',
-                                textTransform: 'uppercase',
-                                background:
-                                    'url("../images/console.png") center / cover',
-                            }}
-                        >
-                            .
-                        </CardTitle>
-                        <CardText>
-                            A friendship and dating app, user can create
-                            profile, matches are based on programming languages
-                            in common.
-                        </CardText>
-                        <CardActions style={{ textAlign: 'center' }} border>
-                            <Button
-                                href="https://github.com/rixiobarrios/console.love.frontend"
-                                target="_blank"
-                                colored
-                            >
-                                Repo
-                            </Button>
-                            <Button
-                                href="http://consoledotlove.herokuapp.com/"
-                                target="_blank"
-                                colored
-                            >
-                                Website
-                            </Button>
-                        </CardActions>
-                    </Card>
-                    {/* React Project 3 */}
-                    <Card
-                        shadow={0}
-                        style={{
-                            minWidth: '450',
-                            margin: '20px auto',
-                            borderRadius: '15px',
-                        }}
-                    >
-                        <CardTitle
-                            style={{
-                                color: '#fff',
-                                height: '176px',
-                                textTransform: 'uppercase',
-                                background:
-                                    'url("../images/food.png") center / cover',
-                            }}
-                        >
-                            .
-                        </CardTitle>
-                        <CardText>
-                            An application to reduce food waste, allows user to
-                            create account and add available food items.
-                        </CardText>
-                        <CardActions style={{ textAlign: 'center' }} border>
-                            <Button
-                                href="https://github.com/mmarmol88/forfoodsake-frontend"
-                                target="_blank"
-                                colored
-                            >
-                                Repo
-                            </Button>
-                            <Button
-                                href="https://forfoodsake.web.app/"
-                                target="_blank"
-                                colored
-                            >
-                                Website
-                            </Button>
-                        </CardActions>
-                    </Card>
-                    {/* React Project 4 */}
-                    <Card
-                        shadow={0}
-                        style={{
-                            minWidth: '450',
-                            margin: '20px auto',
-                            borderRadius: '15px',
-                        }}
-                    >
-                        <CardTitle
-                            style={{
-                                color: '#fff',
-                                height: '176px',
-                                textTransform: 'uppercase',
-                                background:
-                                    'url("../images/fightpandemics.png") center / cover',
-                            }}
-                        >
-                            .
-                        </CardTitle>
-                        <CardText>
-                            An application to help communities around the world
-                            prepare and respond to the current Covid-19 Pandemic
-                            crisis.
-                        </CardText>
-                        <CardActions style={{ textAlign: 'center' }} border>
-                            <Button
-                                href="https://github.com/FightPandemics/FightPandemics"
-                                target="_blank"
-                                colored
-                            >
-                                Repo
-                            </Button>
-                            <Button
-                                href="https://fightpandemics.com/"
-                                target="_blank"
-                                colored
-                            >
-                                Website
-                            </Button>
-                        </CardActions>
-                    </Card>
-                    {/* React Project 5 */}
-                    <Card
-                        shadow={0}
-                        style={{
-                            minWidth: '450',
-                            margin: '20px auto',
-                            borderRadius: '15px',
-                        }}
-                    >
-                        <CardTitle
-                            style={{
-                                color: '#ffff',
-                                height: '176px',
-                                textTransform: 'uppercase',
-                                fontFamily: 'Montserrat',
-                                background:
-                                    'url(../images/securitron.png) center / cover',
-                            }}
-                        >
-                            .
-                        </CardTitle>
-                        <CardText style={{ background: '#ffff' }}>
-                            Securitron is an app using Auth0 as an
-                            authenticating platform. Create a user and try it
-                            out.
-                        </CardText>
-                        <CardActions
-                            style={{
-                                textAlign: 'center',
-                                background: '#ffff',
-                            }}
-                            border
-                        >
-                            <Button
-                                href="https://github.com/rixiobarrios/securitron"
-                                target="_blank"
-                                colored
-                            >
-                                Repo
-                            </Button>
-                            <Button
-                                href="https://securitron.netlify.app/"
+                                href="https://s00gkp.sse.codesandbox.io/"
                                 target="_blank"
                                 colored
                             >
@@ -294,7 +119,7 @@ class Projects extends Component {
                             </Button>
                         </CardActions>
                     </Card>
-                    {/* React Project 7 */}
+                    {/* React Project 5 */}
                     <Card
                         shadow={0}
                         style={{
@@ -310,15 +135,15 @@ class Projects extends Component {
                                 textTransform: 'uppercase',
                                 fontFamily: 'Montserrat',
                                 background:
-                                    'url(../images/hilton.png) center / cover',
+                                    'url(../images/securitron.png) center / cover',
                             }}
                         >
                             .
                         </CardTitle>
                         <CardText style={{ background: '#ffff' }}>
-                            A test driven weather app with Jest, Next.js and
-                            Tailwindcss. This is an assessment for The Hilton
-                            Hotels.
+                            Securitron is an app using Auth0 as an
+                            authenticating platform. Create a user and try it
+                            out.
                         </CardText>
                         <CardActions
                             style={{
@@ -328,14 +153,188 @@ class Projects extends Component {
                             border
                         >
                             <Button
-                                href="https://github.com/rixiobarrios/hilton-dev-assessment"
+                                href="https://github.com/rixiobarrios/securitron"
                                 target="_blank"
                                 colored
                             >
                                 Repo
                             </Button>
                             <Button
-                                href="https://s00gkp.sse.codesandbox.io/"
+                                href="https://securitron.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* React Project 4 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/fightpandemics.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            An application to help communities around the world
+                            prepare and respond to the current Covid-19 Pandemic
+                            crisis.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/FightPandemics/FightPandemics"
+                                target="_blank"
+                                colored
+                            >
+                                Repo
+                            </Button>
+                            <Button
+                                href="https://fightpandemics.com/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* React Project 3 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/food.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            An application to reduce food waste, allows user to
+                            create account and add available food items.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/mmarmol88/forfoodsake-frontend"
+                                target="_blank"
+                                colored
+                            >
+                                Repo
+                            </Button>
+                            <Button
+                                href="https://forfoodsake.web.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* React Project 2 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#ffff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/console.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            A friendship and dating app, user can create
+                            profile, matches are based on programming languages
+                            in common.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/console.love.frontend"
+                                target="_blank"
+                                colored
+                            >
+                                Repo
+                            </Button>
+                            <Button
+                                href="http://consoledotlove.herokuapp.com/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* React Project 1 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#ffff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                fontFamily: 'Montserrat',
+                                background:
+                                    'url(../images/elixir.png) center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText style={{ background: '#ffff' }}>
+                            A cocktail recipe page made using a third party API.
+                            There is a search bar option that will bring you to
+                            your favorite drink.
+                        </CardText>
+                        <CardActions
+                            style={{
+                                textAlign: 'center',
+                                background: '#ffff',
+                            }}
+                            border
+                        >
+                            <Button
+                                href="https://github.com/rixiobarrios/cocktail-recipe"
+                                target="_blank"
+                                colored
+                            >
+                                Repo
+                            </Button>
+                            <Button
+                                href="http://cocktail-recipe-app.herokuapp.com/"
                                 target="_blank"
                                 colored
                             >

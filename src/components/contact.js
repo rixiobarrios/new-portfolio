@@ -22,7 +22,8 @@ class Contact extends Component {
                         >
                             I am looking forward to speaking with you about a
                             career opportunity, a business plan for a startup, a
-                            chance to collaborate on a project, or to network.
+                            chance to collaborate on a project, a freelance
+                            opportunity or just to network.
                             <br></br> I love participating in community events
                             and professional gatherings. So, don't be shy! Let's
                             Connect!

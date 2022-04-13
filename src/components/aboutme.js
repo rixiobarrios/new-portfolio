@@ -36,10 +36,10 @@ class About extends Component {
                             coding and software engineering. I am a problem
                             solver, an explorer, and most importantly an agent
                             of change. I believe we must change the current
-                            paradigm of misused technologies that currently
-                            serve the wrong purpose. This is why I am driven to
-                            become a software engineer. I have found the perfect
-                            quote to illustrate my sentiment;
+                            paradigm of misused technologies that is serving the
+                            wrong purpose. This is why I am driven to become a
+                            software engineer. I have found the perfect quote to
+                            illustrate my sentiment;
                         </p>
                         <div className="about-quote">
                             <i class="fa fa-quote-left" aria-hidden="true"></i>
