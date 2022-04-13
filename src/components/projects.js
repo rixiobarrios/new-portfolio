@@ -606,133 +606,7 @@ class Projects extends Component {
         if (this.state.activeTab === 2) {
             return (
                 <Grid className="projects-grid-html">
-                    {/* HTML/CSS Project 1 */}
-                    <Card
-                        shadow={0}
-                        style={{
-                            minWidth: '450',
-                            margin: '20px auto',
-                            borderRadius: '15px',
-                        }}
-                    >
-                        <CardTitle
-                            style={{
-                                color: '#fff',
-                                height: '176px',
-                                textTransform: 'uppercase',
-                                background:
-                                    'url("../images/portfolio.png") center / cover',
-                            }}
-                        >
-                            .
-                        </CardTitle>
-                        <CardText>
-                            A previous version of this portfolio done as a place
-                            holder. This portfolio served as the basis for the
-                            current one.
-                        </CardText>
-                        <CardActions style={{ textAlign: 'center' }} border>
-                            <Button
-                                href="https://github.com/rixiobarrios/rixiobarrios.github.io"
-                                target="_blank"
-                                colored
-                            >
-                                Repo
-                            </Button>
-                            <Button
-                                href="https://rixiobarrios.github.io/"
-                                target="_blank"
-                                colored
-                            >
-                                Website
-                            </Button>
-                        </CardActions>
-                    </Card>
-                    {/* HTML/CSS Project 2 */}
-                    <Card
-                        shadow={0}
-                        style={{
-                            minWidth: '450',
-                            margin: '20px auto',
-                            borderRadius: '15px',
-                        }}
-                    >
-                        <CardTitle
-                            style={{
-                                color: '#fff',
-                                height: '176px',
-                                textTransform: 'uppercase',
-                                background:
-                                    'url("../images/getuwired.png") center / cover',
-                            }}
-                        >
-                            .
-                        </CardTitle>
-                        <CardText>
-                            A splash page and dropdown menu created out of pure
-                            CSS and HTML. This was an assessment for GetUwired
-                            Internet Marketing.
-                        </CardText>
-                        <CardActions style={{ textAlign: 'center' }} border>
-                            <Button
-                                href="https://github.com/rixiobarrios/getuwired-css-drop-down"
-                                target="_blank"
-                                colored
-                            >
-                                Repo
-                            </Button>
-                            <Button
-                                href="https://getuwired-css-drop-down-menu.netlify.app/"
-                                target="_blank"
-                                colored
-                            >
-                                Website
-                            </Button>
-                        </CardActions>
-                    </Card>
-                    {/* HTML/CSS Project 3 */}
-                    <Card
-                        shadow={0}
-                        style={{
-                            minWidth: '450',
-                            margin: '20px auto',
-                            borderRadius: '15px',
-                        }}
-                    >
-                        <CardTitle
-                            style={{
-                                color: '#fff',
-                                height: '176px',
-                                textTransform: 'uppercase',
-                                background:
-                                    'url("../images/techtonic.png") center / cover',
-                            }}
-                        >
-                            .
-                        </CardTitle>
-                        <CardText>
-                            A mockup assessment created out of pure CSS and
-                            HTML. This was an assessment for Techtonic
-                            Technologies.
-                        </CardText>
-                        <CardActions style={{ textAlign: 'center' }} border>
-                            <Button
-                                href="https://github.com/rixiobarrios/techtonic-apprenticeship-initial-pre-work"
-                                target="_blank"
-                                colored
-                            >
-                                Repo
-                            </Button>
-                            <Button
-                                href="https://mock-up-exercise.netlify.app/"
-                                target="_blank"
-                                colored
-                            >
-                                Website
-                            </Button>
-                        </CardActions>
-                    </Card>
-                    {/* HTML/CSS Project 4 */}
+                    {/* HTML/CSS Project 8 */}
                     <Card
                         shadow={0}
                         style={{
@@ -753,101 +627,20 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            This tribute page is a responsive web design project
-                            built as an assignment for Freecodecamp.org.
+                            This personal portfolio webpage is a responsive web
+                            design project built as an assignment for
+                            Freecodecamp.org.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
-                                href="https://github.com/rixiobarrios/freecodecamp-tribute-page"
+                                href="https://github.com/rixiobarrios/freecodecamp-personal-portfolio-webpage"
                                 target="_blank"
                                 colored
                             >
                                 Repo
                             </Button>
                             <Button
-                                href="https://freecodecamp-tribute-page1.netlify.app/"
-                                target="_blank"
-                                colored
-                            >
-                                Website
-                            </Button>
-                        </CardActions>
-                    </Card>
-                    {/* HTML/CSS Project 5 */}
-                    <Card
-                        shadow={0}
-                        style={{
-                            minWidth: '450',
-                            margin: '20px auto',
-                            borderRadius: '15px',
-                        }}
-                    >
-                        <CardTitle
-                            style={{
-                                color: '#fff',
-                                height: '176px',
-                                textTransform: 'uppercase',
-                                background:
-                                    'url("../images/freecodecamp.png") center / cover',
-                            }}
-                        >
-                            .
-                        </CardTitle>
-                        <CardText>
-                            This survey form page is a responsive web design
-                            project built as an assignment for Freecodecamp.org.
-                        </CardText>
-                        <CardActions style={{ textAlign: 'center' }} border>
-                            <Button
-                                href="https://github.com/rixiobarrios/freecodecamp-survey-form"
-                                target="_blank"
-                                colored
-                            >
-                                Repo
-                            </Button>
-                            <Button
-                                href="https://freecodecamp-survey-form1.netlify.app/"
-                                target="_blank"
-                                colored
-                            >
-                                Website
-                            </Button>
-                        </CardActions>
-                    </Card>
-                    {/* HTML/CSS Project 6 */}
-                    <Card
-                        shadow={0}
-                        style={{
-                            minWidth: '450',
-                            margin: '20px auto',
-                            borderRadius: '15px',
-                        }}
-                    >
-                        <CardTitle
-                            style={{
-                                color: '#fff',
-                                height: '176px',
-                                textTransform: 'uppercase',
-                                background:
-                                    'url("../images/freecodecamp.png") center / cover',
-                            }}
-                        >
-                            .
-                        </CardTitle>
-                        <CardText>
-                            This product landing page is a responsive web design
-                            project built as an assignment for Freecodecamp.org.
-                        </CardText>
-                        <CardActions style={{ textAlign: 'center' }} border>
-                            <Button
-                                href="https://github.com/rixiobarrios/freecodecamp-product-landing-page"
-                                target="_blank"
-                                colored
-                            >
-                                Repo
-                            </Button>
-                            <Button
-                                href="https://freecodecamp-product-landing-page.netlify.app/"
+                                href="https://freecodecamp-personal-portfolio-webpage.netlify.app/"
                                 target="_blank"
                                 colored
                             >
@@ -897,7 +690,7 @@ class Projects extends Component {
                             </Button>
                         </CardActions>
                     </Card>
-                    {/* HTML/CSS Project 8 */}
+                    {/* HTML/CSS Project 6 */}
                     <Card
                         shadow={0}
                         style={{
@@ -918,20 +711,227 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            This personal portfolio webpage is a responsive web
-                            design project built as an assignment for
-                            Freecodecamp.org.
+                            This product landing page is a responsive web design
+                            project built as an assignment for Freecodecamp.org.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
-                                href="https://github.com/rixiobarrios/freecodecamp-personal-portfolio-webpage"
+                                href="https://github.com/rixiobarrios/freecodecamp-product-landing-page"
                                 target="_blank"
                                 colored
                             >
                                 Repo
                             </Button>
                             <Button
-                                href="https://freecodecamp-personal-portfolio-webpage.netlify.app/"
+                                href="https://freecodecamp-product-landing-page.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* HTML/CSS Project 5 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/freecodecamp.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            This survey form page is a responsive web design
+                            project built as an assignment for Freecodecamp.org.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/freecodecamp-survey-form"
+                                target="_blank"
+                                colored
+                            >
+                                Repo
+                            </Button>
+                            <Button
+                                href="https://freecodecamp-survey-form1.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* HTML/CSS Project 4 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/freecodecamp.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            This tribute page is a responsive web design project
+                            built as an assignment for Freecodecamp.org.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/freecodecamp-tribute-page"
+                                target="_blank"
+                                colored
+                            >
+                                Repo
+                            </Button>
+                            <Button
+                                href="https://freecodecamp-tribute-page1.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* HTML/CSS Project 3 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/techtonic.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            A mockup assessment created out of pure CSS and
+                            HTML. This was an assessment for Techtonic
+                            Technologies.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/techtonic-apprenticeship-initial-pre-work"
+                                target="_blank"
+                                colored
+                            >
+                                Repo
+                            </Button>
+                            <Button
+                                href="https://mock-up-exercise.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* HTML/CSS Project 2 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/getuwired.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            A splash page and dropdown menu created out of pure
+                            CSS and HTML. This was an assessment for GetUwired
+                            Internet Marketing.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/getuwired-css-drop-down"
+                                target="_blank"
+                                colored
+                            >
+                                Repo
+                            </Button>
+                            <Button
+                                href="https://getuwired-css-drop-down-menu.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* HTML/CSS Project 1 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/portfolio.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            A previous version of this portfolio done as a place
+                            holder. This portfolio served as the basis for the
+                            current one.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/rixiobarrios.github.io"
+                                target="_blank"
+                                colored
+                            >
+                                Repo
+                            </Button>
+                            <Button
+                                href="https://rixiobarrios.github.io/"
                                 target="_blank"
                                 colored
                             >
