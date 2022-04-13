@@ -348,7 +348,7 @@ class Projects extends Component {
         if (this.state.activeTab === 1) {
             return (
                 <Grid className="projects-grid-javascript">
-                    {/* Javascript Project 1 */}
+                    {/* Javascript Project 6 */}
                     <Card
                         shadow={0}
                         style={{
@@ -363,26 +363,26 @@ class Projects extends Component {
                                 height: '176px',
                                 textTransform: 'uppercase',
                                 background:
-                                    'url("../images/rock.png") center / cover',
+                                    'url("../images/ctd.png") center / cover',
                             }}
                         >
                             .
                         </CardTitle>
                         <CardText>
-                            A game written in vanilla javascript: animated
-                            interface, single player feature, score keeping,
-                            score reset and sound.
+                            A knowledge demonstration for Code The Dream: This
+                            drawing and animation projects is created with
+                            Processing.js and javascript
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
-                                href="https://github.com/rixiobarrios/rock-paper-scissors"
+                                href="https://github.com/rixiobarrios/ctd-prework-demonstration"
                                 target="_blank"
                                 colored
                             >
                                 Repo
                             </Button>
                             <Button
-                                href="https://my-rock-paper-scissors.netlify.app"
+                                href="https://6wq0bz.csb.app/"
                                 target="_blank"
                                 colored
                             >
@@ -390,7 +390,7 @@ class Projects extends Component {
                             </Button>
                         </CardActions>
                     </Card>
-                    {/* Javascript Project 2 */}
+                    {/* Javascript Project 5 */}
                     <Card
                         shadow={0}
                         style={{
@@ -405,68 +405,26 @@ class Projects extends Component {
                                 height: '176px',
                                 textTransform: 'uppercase',
                                 background:
-                                    'url("../images/age.png") center / cover',
+                                    'url("../images/tandem.png") center / cover',
                             }}
                         >
                             .
                         </CardTitle>
                         <CardText>
-                            A mini app written in vanilla javascript: Enter your
-                            date of birth and a future date to find out how old
-                            you would be then.
+                            A trivia game assessment project in javascript for
+                            Tandem: Guess the correct answer and collect 1 point
+                            for each question. Guess all 10!
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
-                                href="https://github.com/rixiobarrios/age-calculator"
+                                href="https://github.com/rixiobarrios/tandem-trivia-questions"
                                 target="_blank"
                                 colored
                             >
                                 Repo
                             </Button>
                             <Button
-                                href="https://my-age-calculator.netlify.app"
-                                target="_blank"
-                                colored
-                            >
-                                Website
-                            </Button>
-                        </CardActions>
-                    </Card>
-                    {/* Javascript Project 3 */}
-                    <Card
-                        shadow={0}
-                        style={{
-                            minWidth: '450',
-                            margin: '20px auto',
-                            borderRadius: '15px',
-                        }}
-                    >
-                        <CardTitle
-                            style={{
-                                color: '#fff',
-                                height: '176px',
-                                textTransform: 'uppercase',
-                                background:
-                                    'url("../images/cart.png") center / cover',
-                            }}
-                        >
-                            .
-                        </CardTitle>
-                        <CardText>
-                            An e-commerce project in javascript: Add and remove
-                            items in your shopping cart. See price and quantity
-                            change. Hit checkout!
-                        </CardText>
-                        <CardActions style={{ textAlign: 'center' }} border>
-                            <Button
-                                href="https://github.com/rixiobarrios/shopping-cart-store"
-                                target="_blank"
-                                colored
-                            >
-                                Repo
-                            </Button>
-                            <Button
-                                href="https://shopping-cart-store.netlify.app"
+                                href="https://tandem-trivia-questions.netlify.app/"
                                 target="_blank"
                                 colored
                             >
@@ -516,7 +474,7 @@ class Projects extends Component {
                             </Button>
                         </CardActions>
                     </Card>
-                    {/* Javascript Project 5 */}
+                    {/* Javascript Project 3 */}
                     <Card
                         shadow={0}
                         style={{
@@ -531,26 +489,110 @@ class Projects extends Component {
                                 height: '176px',
                                 textTransform: 'uppercase',
                                 background:
-                                    'url("../images/tandem.png") center / cover',
+                                    'url("../images/cart.png") center / cover',
                             }}
                         >
                             .
                         </CardTitle>
                         <CardText>
-                            A trivia game assessment project in javascript for
-                            Tandem: Guess the correct answer and collect 1 point
-                            for each question. Guess all 10!
+                            An e-commerce project in javascript: Add and remove
+                            items in your shopping cart. See price and quantity
+                            change. Hit checkout!
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
-                                href="https://github.com/rixiobarrios/tandem-trivia-questions"
+                                href="https://github.com/rixiobarrios/shopping-cart-store"
                                 target="_blank"
                                 colored
                             >
                                 Repo
                             </Button>
                             <Button
-                                href="https://tandem-trivia-questions.netlify.app/"
+                                href="https://shopping-cart-store.netlify.app"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* Javascript Project 2 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/age.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            A mini app written in vanilla javascript: Enter your
+                            date of birth and a future date to find out how old
+                            you would be then.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/age-calculator"
+                                target="_blank"
+                                colored
+                            >
+                                Repo
+                            </Button>
+                            <Button
+                                href="https://my-age-calculator.netlify.app"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* Javascript Project 1 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/rock.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            A game written in vanilla javascript: animated
+                            interface, single player feature, score keeping,
+                            score reset and sound.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/rock-paper-scissors"
+                                target="_blank"
+                                colored
+                            >
+                                Repo
+                            </Button>
+                            <Button
+                                href="https://my-rock-paper-scissors.netlify.app"
                                 target="_blank"
                                 colored
                             >
