@@ -404,7 +404,34 @@ class Resume extends Component {
                             alt="javascript"
                         />
                         <a
-                            href="https://is-pyramid-word.herokuapp.com/"
+                            href="https://tandem-trivia-questions.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Code The Dream: Sleeping Cat</h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
+                        <img
+                            className="processing"
+                            src="../images/processing.png"
+                            alt="processing"
+                        />
+                        <a
+                            href="https://882uol.csb.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
