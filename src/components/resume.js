@@ -388,6 +388,13 @@ class Resume extends Component {
                         >
                             <h6>Tandem: Trivia Game</h6>
                         </a>
+                        <a
+                            href="https://ctd-prework-swapi.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Code The Dream: My Star Wars API Call App</h6>
+                        </a>
                         <img
                             className="html"
                             src="../images/html.png"

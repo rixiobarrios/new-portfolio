@@ -348,6 +348,48 @@ class Projects extends Component {
         if (this.state.activeTab === 1) {
             return (
                 <Grid className="projects-grid-javascript">
+                    {/* Javascript Project 7 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/ctd.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            A knowledge demonstration for Code The Dream: This
+                            application shows characters and films from a public
+                            Star Wars API using Javascript
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/ctd-prework-swapi"
+                                target="_blank"
+                                colored
+                            >
+                                Repo
+                            </Button>
+                            <Button
+                                href="https://ctd-prework-swapi.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
                     {/* Javascript Project 6 */}
                     <Card
                         shadow={0}
