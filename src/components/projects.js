@@ -370,8 +370,8 @@ class Projects extends Component {
                         </CardTitle>
                         <CardText>
                             A knowledge demonstration for Code The Dream: This
-                            application shows characters and films from a public
-                            Star Wars API using Javascript
+                            application shows data from a public Star Wars API
+                            using Javascript
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
