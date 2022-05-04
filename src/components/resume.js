@@ -699,12 +699,18 @@ class Resume extends Component {
                     <Cell className="resume-right-col" col={8}>
                         <h2>Experience</h2>
                         <Experience
-                            startYear={2021}
+                            startYear={2022}
                             endYear="Present"
-                            jobCompany="Upwork"
-                            jobName="Freelance Web Developer"
-                            jobDescription="I am currently seeking opportunities for freelancing work on UpWork and beyond.
-                            Please look at my projects and experience under my portfolio for more information."
+                            jobCompany="Per Scholas"
+                            jobName="Software Engineering Instructional Assistant"
+                            jobDescription="Duties: 
+                            - Grade and/or review assessments, class projects, and other materials
+                            - Enter student grades into LMS software and grading templates
+                            - Update Salesforce data as necessary
+                            - Review curriculum materials and assessments weekly and report to instructor and curriculum development team any proofreading or subject-matter errors
+                            - Assist instructor with the preparation of daily agenda to students
+                            - Schedule time with instructor and students to discuss class challenges
+                            - Monitor learner attendance, certifications’ progress, etc."
                         />
                         <Experience
                             startYear={2021}
