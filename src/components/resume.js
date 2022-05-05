@@ -704,12 +704,12 @@ class Resume extends Component {
                             jobCompany="Per Scholas"
                             jobName="Software Engineering Instructional Assistant"
                             jobDescription="Duties: 
-                            - Grade and/or review assessments, class projects, and other materials
-                            - Enter student grades into LMS software and grading templates
-                            - Update Salesforce data as necessary
-                            - Review curriculum materials and assessments weekly and report to instructor and curriculum development team any proofreading or subject-matter errors
-                            - Assist instructor with the preparation of daily agenda to students
-                            - Schedule time with instructor and students to discuss class challenges
+                            - Grade and/or review assessments, class projects, and other materials\n
+                            - Enter student grades into LMS software and grading templates\n
+                            - Update Salesforce data as necessary\n
+                            - Review curriculum materials and assessments weekly and report to instructor and curriculum development team any proofreading or subject-matter errors\n
+                            - Assist instructor with the preparation of daily agenda to students\n
+                            - Schedule time with instructor and students to discuss class challenges\n
                             - Monitor learner attendance, certifications’ progress, etc."
                         />
                         <Experience
