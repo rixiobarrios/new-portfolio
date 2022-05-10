@@ -707,6 +707,14 @@ class Resume extends Component {
                             Grade and/or review assessments, class projects, and other materials. Enter student grades into LMS software and grading templates.Update Salesforce data as necessary. Review curriculum materials and assessments weekly and report to instructor and curriculum development team any proofreading or subject-matter errors. Assist instructor with the preparation of daily agenda to students. Schedule time with instructor and students to discuss class challenges. Monitor learner attendance, certifications’ progress, etc."
                         />
                         <Experience
+                            startYear={2022}
+                            endYear="Present"
+                            jobCompany="Code The Dream"
+                            jobName="
+Intro to Programming Class Mentor"
+                            jobDescription="Build relationships with our students, guiding them through difficult concepts and helping them gain confidence in their programming skills."
+                        />
+                        <Experience
                             startYear={2021}
                             endYear={2021}
                             jobCompany="Atwater, Brian & Co"
