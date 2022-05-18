@@ -236,7 +236,7 @@ class Projects extends Component {
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
-                                href="https://github.com/mmarmol88/forfoodsake-frontend"
+                                href="https://github.com/rixiobarrios/forfoodsake-frontend"
                                 target="_blank"
                                 colored
                             >
