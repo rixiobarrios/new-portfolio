@@ -159,11 +159,6 @@ class Resume extends Component {
                             alt="react-testing-library"
                         />
                         <img
-                            className="mongodb"
-                            src="../images/mongodb.png"
-                            alt="mongodb"
-                        />
-                        <img
                             className="mongoose"
                             src="../images/mongoose.png"
                             alt="mongoose"
@@ -285,6 +280,88 @@ class Resume extends Component {
                         <img
                             className="react"
                             src="../images/react.png"
+                            alt="react"
+                        />
+                        <a
+                            href="https://www.rixiobarrios.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>CTD: Fruit Stand</h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
+                        <img
+                            className="react"
+                            src="../images/react.png"
+                            alt="react"
+                        />
+                        <img
+                            className="react-hooks"
+                            src="../images/react-hooks.png"
+                            alt="react-hooks"
+                        />
+                        <img
+                            className="react-router"
+                            src="../images/react-router.png"
+                            alt="react"
+                        />
+                        <img
+                            className="material-ui"
+                            src="../images/material-ui.png"
+                            alt="react"
+                        />
+                        <img
+                            className="axios"
+                            src="../images/axios.png"
+                            alt="react"
+                        />
+                        <img
+                            className="cors"
+                            src="../images/cors.png"
+                            alt="react"
+                        />
+                        <img
+                            className="dotenv"
+                            src="../images/dotenv.png"
+                            alt="react"
+                        />
+                        <img
+                            className="express"
+                            src="../images/express.png"
+                            alt="react"
+                        />
+                        <img
+                            className="mongoose"
+                            src="../images/mongoose.png"
+                            alt="react"
+                        />
+                        <img
+                            className="nodejs"
+                            src="../images/nodejs.png"
+                            alt="nodejs"
+                        />
+                        <img
+                            className="nodemon"
+                            src="../images/nodemon.png"
+                            alt="react"
+                        />
+                        <img
+                            className="nodemailer"
+                            src="../images/nodemailer.png"
                             alt="react"
                         />
                         <hr
@@ -649,7 +726,7 @@ class Resume extends Component {
                         <img
                             className="gtm"
                             src="../images/google-tag-manager.png"
-                            alt="ant"
+                            alt="gtm"
                         />
                         <img
                             className="uuid"
@@ -670,11 +747,6 @@ class Resume extends Component {
                             className="gmapi"
                             src="../images/gmapi.png"
                             alt="gmapi"
-                        />
-                        <img
-                            className="mongodb"
-                            src="../images/mongodb.png"
-                            alt="mongodb"
                         />
                         <img
                             className="mongoose"
@@ -852,6 +924,11 @@ Intro to Programming Class Mentor"
                             className="postgresql"
                             src="../images/postgresql.png"
                             alt="postgresql"
+                        />
+                        <img
+                            className="mongodb"
+                            src="../images/mongodb.png"
+                            alt="mongodb"
                         />
                     </Cell>
                 </Grid>

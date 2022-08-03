@@ -43,9 +43,9 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText style={{ background: '#ffff' }}>
-                            Full-Stack "MERN" inventory app that sends you an
-                            email when an item in stock reaches 0 using
-                            Nodemailer.
+                            An application assignment for Code The Dream: This
+                            full-stack inventory app sends you an email when
+                            items reach 0.
                         </CardText>
                         <CardActions
                             style={{

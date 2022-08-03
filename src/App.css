@@ -149,7 +149,6 @@
 .sequelize,
 .bootstrap,
 .django,
-.mongodb,
 .wordpress,
 .lodash,
 .jest,
@@ -178,7 +177,10 @@
 .gmapi,
 .nextjs,
 .tailwindcss,
-.processing {
+.processing,
+.dotenv,
+.axios,
+.nodemailer {
     height: 50px;
 }
 
@@ -196,7 +198,8 @@
 .docker,
 .twilio,
 .postgresql,
-.google-developers {
+.google-developers,
+.mongodb {
     height: 80px;
 }
 
@@ -318,7 +321,8 @@
 }
 
 /* Media Query */
-@media handheld, only screen and (max-width: 720px) {
+@media handheld, only screen and (max-width: 768px) {
+
     .sticky-nav {
         display: block;
         background-color: white;
@@ -389,7 +393,10 @@
     .react-hooks,
     .tailwindcss,
     .nextjs,
-    .processing {
+    .processing,
+    .dotenv,
+    .axios,
+    .nodemailer {
         height: 60px;
     }
     .about-body {
@@ -441,6 +448,6 @@
         margin: 45px 0px 20px 10px;
     }
     .mdl-layout__drawer-button {
-        display: block !important;
+        display:block !important;
     }
 }
