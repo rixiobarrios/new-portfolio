@@ -44,8 +44,8 @@ class Projects extends Component {
                         </CardTitle>
                         <CardText style={{ background: '#ffff' }}>
                             An application built for Code The Dream: This
-                            full-stack todo list built with an airtable backend
-                            dynamic backend.
+                            full-stack todo list was built with an airtable
+                            backend.
                         </CardText>
                         <CardActions
                             style={{
