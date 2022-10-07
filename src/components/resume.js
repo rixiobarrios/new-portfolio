@@ -325,11 +325,6 @@ class Resume extends Component {
                             alt="react"
                         />
                         <img
-                            className="axios"
-                            src="../images/axios.png"
-                            alt="react"
-                        />
-                        <img
                             className="cors"
                             src="../images/cors.png"
                             alt="react"
@@ -362,6 +357,43 @@ class Resume extends Component {
                         <img
                             className="nodemailer"
                             src="../images/nodemailer.png"
+                            alt="react"
+                        />
+                        <a
+                            href="https://ctd-react-albatross.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>CTD: Todo List</h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
+                        <img
+                            className="react"
+                            src="../images/react.png"
+                            alt="react"
+                        />
+                        <img
+                            className="react-hooks"
+                            src="../images/react-hooks.png"
+                            alt="react-hooks"
+                        />
+                        <img
+                            className="react-router"
+                            src="../images/react-router.png"
                             alt="react"
                         />
                         <hr

@@ -21,6 +21,55 @@ class Projects extends Component {
         if (this.state.activeTab === 0) {
             return (
                 <Grid className="projects-grid">
+                    {/* React Project 9 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#ffff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                fontFamily: 'Montserrat',
+                                background:
+                                    'url(../images/ctd.png) center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText style={{ background: '#ffff' }}>
+                            An application built for Code The Dream: This
+                            full-stack todo list built with an airtable backend
+                            dynamic backend.
+                        </CardText>
+                        <CardActions
+                            style={{
+                                textAlign: 'center',
+                                background: '#ffff',
+                            }}
+                            border
+                        >
+                            <Button
+                                href="https://github.com/rixiobarrios/ctd-react-albatross"
+                                target="_blank"
+                                colored
+                            >
+                                Repo
+                            </Button>
+                            <Button
+                                href="https://ctd-react-albatross.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
                     {/* React Project 8 */}
                     <Card
                         shadow={0}
