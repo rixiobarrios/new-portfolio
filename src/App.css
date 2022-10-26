@@ -179,7 +179,6 @@
 .tailwindcss,
 .processing,
 .dotenv,
-.axios,
 .nodemailer {
     height: 50px;
 }
@@ -395,7 +394,6 @@
     .nextjs,
     .processing,
     .dotenv,
-    .axios,
     .nodemailer {
         height: 60px;
     }

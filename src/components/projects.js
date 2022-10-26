@@ -43,8 +43,9 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText style={{ background: '#ffff' }}>
-                            An application built for Code The Dream: This todo
-                            list was built to use my own API under airtable.
+                            An application assignment for Code The Dream:
+                            Application built with React, Javascript and own API
+                            under airtable.
                         </CardText>
                         <CardActions
                             style={{
@@ -91,9 +92,9 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText style={{ background: '#ffff' }}>
-                            An application assignment for Code The Dream: This
-                            full-stack inventory app sends you an email when
-                            items reach 0.
+                            An application assignment for Code The Dream:
+                            Fullstack application on React, Javascript, Node,
+                            Express and MongoDB
                         </CardText>
                         <CardActions
                             style={{
@@ -140,9 +141,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText style={{ background: '#ffff' }}>
-                            A test driven weather app with Jest, Next.js and
-                            Tailwindcss. This is an assessment for The Hilton
-                            Hotels.
+                            An assessment for The Hilton Hotels: Application on
+                            React, Typescript, Jest, Next.js and Tailwindcss.
                         </CardText>
                         <CardActions
                             style={{
@@ -189,9 +189,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText style={{ background: '#ffff' }}>
-                            A responsive dropdown menu with a mobile option.
-                            This react app was design as an assignment for
-                            Pocket RN.
+                            A pre-interview assignment for Pocket RN: A
+                            responsive menu on React, Javascript and CSS.
                         </CardText>
                         <CardActions
                             style={{
@@ -238,9 +237,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText style={{ background: '#ffff' }}>
-                            Securitron is an app using Auth0 as an
-                            authenticating platform. Create a user and try it
-                            out.
+                            A personal project: Authentication application on
+                            React, Javascript, Auth0 and Material UI.
                         </CardText>
                         <CardActions
                             style={{
@@ -286,9 +284,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            An application to help communities around the world
-                            prepare and respond to the current Covid-19 Pandemic
-                            crisis.
+                            A collaboration: Application to prepare and respond
+                            to the Covid-19 Pandemic.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -322,14 +319,15 @@ class Projects extends Component {
                                 height: '176px',
                                 textTransform: 'uppercase',
                                 background:
-                                    'url("../images/food.png") center / cover',
+                                    'url("../images/generalassembly.png") center / cover',
                             }}
                         >
                             .
                         </CardTitle>
                         <CardText>
-                            An application to reduce food waste, allows user to
-                            create account and add available food items.
+                            An assignment for General Assembly: Fullstack
+                            application using React, Javascript, Node, Express
+                            and Material UI.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -363,15 +361,15 @@ class Projects extends Component {
                                 height: '176px',
                                 textTransform: 'uppercase',
                                 background:
-                                    'url("../images/console.png") center / cover',
+                                    'url("../images/generalassembly.png") center / cover',
                             }}
                         >
                             .
                         </CardTitle>
                         <CardText>
-                            A friendship and dating app, user can create
-                            profile, matches are based on programming languages
-                            in common.
+                            An assignment for General Assembly: Application
+                            fetching data from own API using React, Javascript
+                            and CSS.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -406,15 +404,15 @@ class Projects extends Component {
                                 textTransform: 'uppercase',
                                 fontFamily: 'Montserrat',
                                 background:
-                                    'url(../images/elixir.png) center / cover',
+                                    'url(../images/generalassembly.png) center / cover',
                             }}
                         >
                             .
                         </CardTitle>
                         <CardText style={{ background: '#ffff' }}>
-                            A cocktail recipe page made using a third party API.
-                            There is a search bar option that will bring you to
-                            your favorite drink.
+                            An assignment for General Assembly: Application
+                            fetching data from an API, build on React,
+                            Javascript and CSS.
                         </CardText>
                         <CardActions
                             style={{
@@ -466,9 +464,9 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            A knowledge demonstration for Code The Dream: This
-                            application shows data from a public Star Wars API
-                            using javascript
+                            A knowledge demonstration for Code The Dream:
+                            Application fetching data from an API using HTML,
+                            Javascript and CSS.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -508,9 +506,9 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            A knowledge demonstration for Code The Dream: This
-                            drawing and animation projects is created with
-                            Processing.js and javascript
+                            A knowledge demonstration for Code The Dream: Draw
+                            an animated image using HTML, Javascript and
+                            Processing.js.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -550,9 +548,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            A trivia game assessment project in javascript for
-                            Tandem: Guess the correct answer and collect 1 point
-                            for each question. Guess all 10!
+                            A trivia game assessment for Tandem: Application
+                            built on Javascript, HTML and CSS.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -592,9 +589,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            A web service exercise assessment for Fetch Rewards:
-                            Returns a boolean to indicate whether a word is a
-                            pyramid word.
+                            A local service exercise for Fetch Rewards: Returns
+                            a boolean for a pyramid word input.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -603,13 +599,6 @@ class Projects extends Component {
                                 colored
                             >
                                 Repo
-                            </Button>
-                            <Button
-                                href="https://is-pyramid-word.herokuapp.com/"
-                                target="_blank"
-                                colored
-                            >
-                                Website
                             </Button>
                         </CardActions>
                     </Card>
@@ -634,9 +623,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            An e-commerce project in javascript: Add and remove
-                            items in your shopping cart. See price and quantity
-                            change. Hit checkout!
+                            A personal project: Shopping cart application built
+                            with Javascript, HTML and CSS.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -676,9 +664,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            A mini app written in vanilla javascript: Enter your
-                            date of birth and a future date to find out how old
-                            you would be then.
+                            A personal project: Age calculation application on
+                            Javascript, HTML and CSS.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -712,15 +699,14 @@ class Projects extends Component {
                                 height: '176px',
                                 textTransform: 'uppercase',
                                 background:
-                                    'url("../images/rock.png") center / cover',
+                                    'url("../images/generalassembly.png") center / cover',
                             }}
                         >
                             .
                         </CardTitle>
                         <CardText>
-                            A game written in vanilla javascript: animated
-                            interface, single player feature, score keeping,
-                            score reset and sound.
+                            An assignment for General Assembly: Single player
+                            game on Javascript, HTML and CSS.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -766,9 +752,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            This personal portfolio webpage is a responsive web
-                            design project built as an assignment for
-                            Freecodecamp.org.
+                            Built as an assignment for FreeCodeCamp.org: A
+                            personal portfolio on HTML and CSS.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -808,9 +793,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            This technical documentation page is a responsive
-                            web design project built as an assignment for
-                            Freecodecamp.org.
+                            Built as an assignment for FreeCodeCamp.org: A
+                            technical documentation page on HTML and CSS.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -850,8 +834,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            This product landing page is a responsive web design
-                            project built as an assignment for Freecodecamp.org.
+                            Built as an assignment for FreeCodeCamp.org: A
+                            product landing page on HTML and CSS.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -891,8 +875,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            This survey form page is a responsive web design
-                            project built as an assignment for Freecodecamp.org.
+                            Built as an assignment for FreeCodeCamp.org: A
+                            survey form on HTML and CSS.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -932,8 +916,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            This tribute page is a responsive web design project
-                            built as an assignment for Freecodecamp.org.
+                            Built as an assignment for FreeCodeCamp.org: A
+                            tribute page on HTML and CSS.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -973,9 +957,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            A mockup assessment created out of pure CSS and
-                            HTML. This was an assessment for Techtonic
-                            Technologies.
+                            A mockup exercise for Techtonic Technologies: An
+                            about me page with layout requirements.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -1015,9 +998,8 @@ class Projects extends Component {
                             .
                         </CardTitle>
                         <CardText>
-                            A splash page and dropdown menu created out of pure
-                            CSS and HTML. This was an assessment for GetUwired
-                            Internet Marketing.
+                            An assessment for GetUwired Internet Marketing:
+                            Animated dropdown menu on HTML and CSS.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
@@ -1051,15 +1033,14 @@ class Projects extends Component {
                                 height: '176px',
                                 textTransform: 'uppercase',
                                 background:
-                                    'url("../images/portfolio.png") center / cover',
+                                    'url("../images/generalassembly.png") center / cover',
                             }}
                         >
                             .
                         </CardTitle>
                         <CardText>
-                            A previous version of this portfolio done as a place
-                            holder. This portfolio served as the basis for the
-                            current one.
+                            An assignment for General Assembly: Built a
+                            portfolio on HTML and CSS.
                         </CardText>
                         <CardActions style={{ textAlign: 'center' }} border>
                             <Button
