@@ -26,7 +26,6 @@ class Resume extends Component {
                                 fontFamily: 'Montserrat',
                             }}
                         >
-                            <hr></hr>
                             Software Engineer
                         </h4>
                         <hr
@@ -61,7 +60,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>GA #1: Rock Paper Scissors</h6>
+                            <h6>General Assembly #1: Rock Paper Scissors</h6>
                         </a>
                         <img
                             className="html"
@@ -84,7 +83,9 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>GA #2: Elixir: Cocktail Recipe</h6>
+                            <h6>
+                                General Assembly #2: Elixir: Cocktail Recipe
+                            </h6>
                         </a>
                         <img
                             className="html"
@@ -116,7 +117,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>GA #3: Console.love</h6>
+                            <h6>General Assembly #3: Console.love</h6>
                         </a>
                         <img
                             className="html"
@@ -168,7 +169,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>GA #4: For Food Sake</h6>
+                            <h6>Genegal Assembly #4: For Food Sake</h6>
                         </a>
                         <img
                             className="html"
@@ -260,7 +261,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>GA #5: Personal Portfolio</h6>
+                            <h6>General Assembly #5: Personal Portfolio</h6>
                         </a>
                         <img
                             className="html"
@@ -287,7 +288,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>CTD: Fruit Stand</h6>
+                            <h6>Code The Dream: Fruit Stand</h6>
                         </a>
                         <img
                             className="html"
@@ -364,7 +365,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>CTD: Todo List</h6>
+                            <h6>Code The Dream: Todo List</h6>
                         </a>
                         <img
                             className="html"
@@ -408,14 +409,14 @@ class Resume extends Component {
                                 fontFamily: 'Montserrat',
                             }}
                         >
-                            Mini Projects
+                            Other Projects
                         </h4>
                         <a
                             href="https://rixiobarrios.github.io/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>Previous Portfolio</h6>
+                            <h6>General Assembly: Portfolio</h6>
                         </a>
                         <a
                             href="https://mock-up-exercise.netlify.app/"
@@ -436,35 +437,40 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>FCC #1: Tribute Page</h6>
+                            <h6>FreeCodeCamp.org #1: Tribute Page</h6>
                         </a>
                         <a
                             href="https://freecodecamp-survey-form1.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>FCC #2: Survey Form</h6>
+                            <h6>FreeCodeCamp.org #2: Survey Form</h6>
                         </a>
                         <a
                             href="https://freecodecamp-product-landing-page.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>FCC #3: Product Landing Page</h6>
+                            <h6>FreeCodeCamp.org #3: Product Landing Page</h6>
                         </a>
                         <a
                             href="https://freecodecamp-technical-documentation-page.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>FCC #4: Technical Documentation Page</h6>
+                            <h6>
+                                FreeCodeCamp.org #4: Technical Documentation
+                                Page
+                            </h6>
                         </a>
                         <a
                             href="https://freecodecamp-personal-portfolio-webpage.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>FCC #5: Personal Portfolio Webpage</h6>
+                            <h6>
+                                FreeCodeCamp.org #5: Personal Portfolio Webpage
+                            </h6>
                         </a>
                         <img
                             className="html"
@@ -637,7 +643,7 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>Hilton: Weather App </h6>
+                            <h6>The Hilton Hotels: Weather App </h6>
                         </a>
                         <img
                             className="html"
@@ -805,18 +811,26 @@ class Resume extends Component {
                         <Experience
                             startYear={2022}
                             endYear="Present"
-                            jobCompany="Per Scholas"
-                            jobName="Software Engineering Instructional Assistant"
+                            jobCompany="Discovery Partners Institute"
+                            jobName="Software Engineer Pre-Apprentice"
                             jobDescription=" 
-                            Grade and/or review assessments, class projects, and other materials. Enter student grades into LMS software and grading templates.Update Salesforce data as necessary. Review curriculum materials and assessments weekly and report to instructor and curriculum development team any proofreading or subject-matter errors. Assist instructor with the preparation of daily agenda to students. Schedule time with instructor and students to discuss class challenges. Monitor learner attendance, certifications’ progress, etc."
+                            Participating in three months of front-loaded, accelerated training on Domain modeling, Database design, Postman, Intermediate Ruby and Ruby on Rails, Sinatra, Automated testing, Authentication with Devise, Authorization with Pundit, crypt, Intermediate Git, Bootstrap, Continuous delivery, Intro to JavaScript, API development, Ajax: HTML over the wire, Ajax: JSON over the wire, Introduction to React, Introduction to React Native."
                         />
                         <Experience
                             startYear={2022}
                             endYear="Present"
                             jobCompany="Code The Dream"
                             jobName="
-Intro to Programming Class Mentor"
+    Intro to Programming Class Mentor"
                             jobDescription="Build relationships with our students, guiding them through difficult concepts and helping them gain confidence in their programming skills."
+                        />
+                        <Experience
+                            startYear={2022}
+                            endYear={2022}
+                            jobCompany="Per Scholas"
+                            jobName="Software Engineering Instructional Assistant"
+                            jobDescription=" 
+                            Grade and/or review assessments, class projects, and other materials. Enter student grades into LMS software and grading templates.Update Salesforce data as necessary. Review curriculum materials and assessments weekly and report to instructor and curriculum development team any proofreading or subject-matter errors. Assist instructor with the preparation of daily agenda to students. Schedule time with instructor and students to discuss class challenges. Monitor learner attendance, certifications’ progress, etc."
                         />
                         <Experience
                             startYear={2021}

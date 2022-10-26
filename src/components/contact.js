@@ -31,7 +31,7 @@ class Contact extends Component {
                     </Cell>
                     <Cell col={6}>
                         <h2>Reach out!</h2>
-                        <hr /> <div style={{ textAlign: 'center' }}></div>
+                        <div style={{ textAlign: 'center' }}></div>
                         <div className="contact-list">
                             <List>
                                 <ListItem>

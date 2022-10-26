@@ -15,9 +15,6 @@ class Landing extends Component {
 
                         <div className="banner-text">
                             <h1>Rixio Barrios</h1>
-                            {/* 
-                            <hr /> */}
-
                             <p>Software Engineer | Fullstack Web Developer</p>
 
                             <div className="social-links">
