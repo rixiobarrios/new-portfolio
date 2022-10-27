@@ -792,6 +792,43 @@ class Resume extends Component {
                             alt="mongoose"
                         />
                         <a
+                            href="https://kir100.focusgames.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Keep Ite Real 100 Game</h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
+                        <img
+                            className="react"
+                            src="../images/react.png"
+                            alt="react"
+                        />
+                        <img
+                            className="react-router"
+                            src="../images/react-router.png"
+                            alt="react"
+                        />
+                        <img
+                            className="material-ui"
+                            src="../images/material-ui.png"
+                            alt="material-ui"
+                        />
+                        <a
                             href="https://antievictionmap.com/"
                             target="_blank"
                             rel="noopener noreferrer"
