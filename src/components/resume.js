@@ -409,7 +409,7 @@ class Resume extends Component {
                                 fontFamily: 'Montserrat',
                             }}
                         >
-                            Other Projects
+                            Small Projects
                         </h4>
                         <a
                             href="https://rixiobarrios.github.io/"
@@ -798,12 +798,59 @@ class Resume extends Component {
                         >
                             <h6>Anti-Eviction Mapping Project</h6>
                         </a>
-
                         <br></br>
                         <hr
                             style={{
                                 borderTop: '3px solid #339999',
                             }}
+                        />
+                        <h4
+                            style={{
+                                color: '#919292',
+                                textTransform: 'uppercase',
+                                fontFamily: 'Montserrat',
+                            }}
+                        >
+                            Other
+                        </h4>{' '}
+                        <a
+                            href="https://crisp-test.netlify.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Crisp: Chat Integration webpage</h6>
+                        </a>
+                        <img
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
+                        />
+                        <img
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
+                        />
+                        <img
+                            className="crisp"
+                            src="../images/crisp.png"
+                            alt="crisp"
+                        />
+                        <a
+                            href="https://github.com/rixiobarrios/super-madlibs"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Super Madlibs Game</h6>
+                        </a>
+                        <img
+                            className="dotnet"
+                            src="../images/dotnet.png"
+                            alt="dotnet"
+                        />
+                        <img
+                            className="c-sharp"
+                            src="../images/c-sharp.png"
+                            alt="c-sharp"
                         />
                     </Cell>
                     <Cell className="resume-right-col" col={8}>

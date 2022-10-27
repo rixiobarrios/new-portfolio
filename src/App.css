@@ -179,7 +179,10 @@
 .tailwindcss,
 .processing,
 .dotenv,
-.nodemailer {
+.nodemailer,
+.crisp,
+.c-sharp,
+.dotnet {
     height: 50px;
 }
 
