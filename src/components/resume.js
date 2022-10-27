@@ -852,6 +852,23 @@ class Resume extends Component {
                             src="../images/c-sharp.png"
                             alt="c-sharp"
                         />
+                        <a
+                            href="https://dpi-tech-ready-portfolio.herokuapp.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Linktree like Portfolio</h6>
+                        </a>
+                        <img
+                            className="ruby"
+                            src="../images/ruby.png"
+                            alt="ruby"
+                        />
+                        <img
+                            className="rails"
+                            src="../images/rails.png"
+                            alt="rails"
+                        />
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <h2>Experience</h2>

@@ -182,7 +182,9 @@
 .nodemailer,
 .crisp,
 .c-sharp,
-.dotnet {
+.dotnet,
+.ruby,
+.rails {
     height: 50px;
 }
 
