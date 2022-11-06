@@ -25,7 +25,7 @@ class Landing extends Component {
                                     target="_blank"
                                 >
                                     <i
-                                        className="fa fa-linkedin-square"
+                                        className="fa-brands fa-linkedin"
                                         aria-hidden="true"
                                     />
                                 </a>
@@ -37,11 +37,22 @@ class Landing extends Component {
                                     target="_blank"
                                 >
                                     <i
-                                        className="fa fa-github-square"
+                                        className="fa-brands fa-square-github"
                                         aria-hidden="true"
                                     />
                                 </a>
 
+                                {/* Dev.to */}
+                                <a
+                                    href="https://dev.to/rixiobarrios"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                >
+                                    <i
+                                        className="fa-brands fa-dev"
+                                        aria-hidden="true"
+                                    />
+                                </a>
                                 {/* Freecodecamp */}
                                 <a
                                     href="https://www.freecodecamp.org/rixiobarrios"
@@ -49,7 +60,7 @@ class Landing extends Component {
                                     target="_blank"
                                 >
                                     <i
-                                        className="fa fa-free-code-camp"
+                                        className="fa-brands fa-free-code-camp"
                                         aria-hidden="true"
                                     />
                                 </a>
@@ -61,7 +72,7 @@ class Landing extends Component {
                                     target="_blank"
                                 >
                                     <i
-                                        className="fa fa-codepen"
+                                        className="fa-brands fa-codepen"
                                         aria-hidden="true"
                                     />
                                 </a>
@@ -72,7 +83,7 @@ class Landing extends Component {
                                     target="_blank"
                                 >
                                     <i
-                                        className="fa fa-stack-overflow"
+                                        className="fa-brands fa-stack-overflow"
                                         aria-hidden="true"
                                     />
                                 </a>
