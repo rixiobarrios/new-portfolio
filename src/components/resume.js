@@ -284,7 +284,7 @@ class Resume extends Component {
                             alt="react"
                         />
                         <a
-                            href="https://www.rixiobarrios.com/"
+                            href="https://github.com/rixiobarrios/ctd-fruitstand"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -526,7 +526,7 @@ class Resume extends Component {
                             alt="javascript"
                         />
                         <a
-                            href="https://tandem-trivia-questions.netlify.app/"
+                            href="https://6wq0bz.csb.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -553,26 +553,31 @@ class Resume extends Component {
                             alt="processing"
                         />
                         <a
-                            href="https://882uol.csb.app/"
+                            href="https://crisp-test.netlify.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>Fetch Rewards: Is Pyramid Word</h6>
+                            <h6>Crisp: Chat Integration webpage</h6>
                         </a>
                         <img
-                            className="express"
-                            src="../images/express.png"
-                            alt="express"
+                            className="html"
+                            src="../images/html.png"
+                            alt="html"
                         />
                         <img
-                            className="cors"
-                            src="../images/cors.png"
-                            alt="cors"
+                            className="css"
+                            src="../images/css.png"
+                            alt="css"
                         />
                         <img
                             className="javascript"
                             src="../images/javascript.png"
                             alt="javascript"
+                        />
+                        <img
+                            className="crisp"
+                            src="../images/crisp.png"
+                            alt="crisp"
                         />
                         <a
                             href="https://securitron.netlify.app/"
@@ -851,26 +856,26 @@ class Resume extends Component {
                             Other
                         </h4>{' '}
                         <a
-                            href="https://crisp-test.netlify.app/"
+                            href="https://github.com/rixiobarrios/fetch-rewards-is-pyramid-word"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>Crisp: Chat Integration webpage</h6>
+                            <h6>Fetch Rewards: Is Pyramid Word</h6>
                         </a>
                         <img
-                            className="html"
-                            src="../images/html.png"
-                            alt="html"
+                            className="express"
+                            src="../images/express.png"
+                            alt="express"
                         />
                         <img
-                            className="css"
-                            src="../images/css.png"
-                            alt="css"
+                            className="cors"
+                            src="../images/cors.png"
+                            alt="cors"
                         />
                         <img
-                            className="crisp"
-                            src="../images/crisp.png"
-                            alt="crisp"
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
                         />
                         <a
                             href="https://github.com/rixiobarrios/super-madlibs"
@@ -894,7 +899,30 @@ class Resume extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <h6>Linktree like Portfolio</h6>
+                            <h6>
+                                Discovery Partners Institute: Linktree like
+                                Portfolio
+                            </h6>
+                        </a>
+                        <img
+                            className="ruby"
+                            src="../images/ruby.png"
+                            alt="ruby"
+                        />
+                        <img
+                            className="rails"
+                            src="../images/rails.png"
+                            alt="rails"
+                        />
+                        <a
+                            href="https://github.com/rixiobarrios/neighborhood-bulletin-board"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>
+                                Discovery Partners Institute: Neighborhood
+                                Bulletin Board
+                            </h6>
                         </a>
                         <img
                             className="ruby"

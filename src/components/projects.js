@@ -443,7 +443,7 @@ class Projects extends Component {
         if (this.state.activeTab === 1) {
             return (
                 <Grid className="projects-grid-javascript">
-                    {/* Javascript Project 7 */}
+                    {/* Javascript Project 8 */}
                     <Card
                         shadow={0}
                         style={{
@@ -485,7 +485,7 @@ class Projects extends Component {
                             </Button>
                         </CardActions>
                     </Card>
-                    {/* Javascript Project 6 */}
+                    {/* Javascript Project 7 */}
                     <Card
                         shadow={0}
                         style={{
@@ -527,7 +527,7 @@ class Projects extends Component {
                             </Button>
                         </CardActions>
                     </Card>
-                    {/* Javascript Project 5 */}
+                    {/* Javascript Project 6 */}
                     <Card
                         shadow={0}
                         style={{
@@ -561,6 +561,47 @@ class Projects extends Component {
                             </Button>
                             <Button
                                 href="https://tandem-trivia-questions.netlify.app/"
+                                target="_blank"
+                                colored
+                            >
+                                Website
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    {/* Javascript Project 5 */}
+                    <Card
+                        shadow={0}
+                        style={{
+                            minWidth: '450',
+                            margin: '20px auto',
+                            borderRadius: '15px',
+                        }}
+                    >
+                        <CardTitle
+                            style={{
+                                color: '#fff',
+                                height: '176px',
+                                textTransform: 'uppercase',
+                                background:
+                                    'url("../images/crisp_logo.png") center / cover',
+                            }}
+                        >
+                            .
+                        </CardTitle>
+                        <CardText>
+                            A test build for a live chat plugin integration
+                            service to connect with users by Crisp.
+                        </CardText>
+                        <CardActions style={{ textAlign: 'center' }} border>
+                            <Button
+                                href="https://github.com/rixiobarrios/crisp-test"
+                                target="_blank"
+                                colored
+                            >
+                                Repo
+                            </Button>
+                            <Button
+                                href="https://crisp-test.netlify.app"
                                 target="_blank"
                                 colored
                             >
