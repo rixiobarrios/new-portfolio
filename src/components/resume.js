@@ -1105,6 +1105,11 @@ class Resume extends Component {
                             src="../images/mongodb.png"
                             alt="mongodb"
                         />
+                        <img
+                            className="gitpod"
+                            src="../images/gitpod.png"
+                            alt="gitpod"
+                        />
                     </Cell>
                 </Grid>
             </div>
