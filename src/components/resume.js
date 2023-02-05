@@ -934,6 +934,26 @@ class Resume extends Component {
                             src="../images/rails.png"
                             alt="rails"
                         />
+                        <a
+                            href="https://github.com/rixiobarrios/krayslist"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>
+                                Discovery Partners Institute: Krayslist:
+                                Community classified advertisements website
+                            </h6>
+                        </a>
+                        <img
+                            className="ruby"
+                            src="../images/ruby.png"
+                            alt="ruby"
+                        />
+                        <img
+                            className="rails"
+                            src="../images/rails.png"
+                            alt="rails"
+                        />
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <h2>Experience</h2>
