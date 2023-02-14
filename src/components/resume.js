@@ -960,8 +960,8 @@ class Resume extends Component {
                         <Experience
                             startYear={2022}
                             endYear="Present"
-                            jobCompany="Discovery Partners Institute"
-                            jobName="Software Engineer Pre-Apprentice"
+                            jobCompany="Discovery Partners Institute/University of Illinois"
+                            jobName="Software Engineer Apprentice"
                             jobDescription=" 
                             Participating in three months of front-loaded, accelerated training on Domain modeling, Database design, Postman, Intermediate Ruby and Ruby on Rails, Sinatra, Automated testing, Authentication with Devise, Authorization with Pundit, crypt, Intermediate Git, Bootstrap, Continuous delivery, Intro to JavaScript, API development, Ajax: HTML over the wire, Ajax: JSON over the wire, Introduction to React, Introduction to React Native."
                         />
