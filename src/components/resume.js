@@ -397,6 +397,26 @@ class Resume extends Component {
                             src="../images/react-router.png"
                             alt="react"
                         />
+                        <a
+                            href="https://github.com/rixiobarrios/krayslist"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>
+                                Discovery Partners Institute: Krayslist:
+                                Community classified advertisements website
+                            </h6>
+                        </a>
+                        <img
+                            className="ruby"
+                            src="../images/ruby.png"
+                            alt="ruby"
+                        />
+                        <img
+                            className="rails"
+                            src="../images/rails.png"
+                            alt="rails"
+                        />
                         <hr
                             style={{
                                 borderTop: '3px solid #339999',
@@ -695,6 +715,85 @@ class Resume extends Component {
                             src="../images/jest.png"
                             alt="jest"
                         />
+                        <a
+                            href="https://github.com/rixiobarrios/fetch-rewards-is-pyramid-word"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Fetch Rewards: Is Pyramid Word</h6>
+                        </a>
+                        <img
+                            className="express"
+                            src="../images/express.png"
+                            alt="express"
+                        />
+                        <img
+                            className="cors"
+                            src="../images/cors.png"
+                            alt="cors"
+                        />
+                        <img
+                            className="javascript"
+                            src="../images/javascript.png"
+                            alt="javascript"
+                        />
+                        <a
+                            href="https://github.com/rixiobarrios/super-madlibs"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>Super Madlibs Game</h6>
+                        </a>
+                        <img
+                            className="dotnet"
+                            src="../images/dotnet.png"
+                            alt="dotnet"
+                        />
+                        <img
+                            className="c-sharp"
+                            src="../images/c-sharp.png"
+                            alt="c-sharp"
+                        />
+                        <a
+                            href="https://dpi-tech-ready-portfolio.herokuapp.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>
+                                Discovery Partners Institute: Linktree like
+                                Portfolio
+                            </h6>
+                        </a>
+                        <img
+                            className="ruby"
+                            src="../images/ruby.png"
+                            alt="ruby"
+                        />
+                        <img
+                            className="rails"
+                            src="../images/rails.png"
+                            alt="rails"
+                        />
+                        <a
+                            href="https://github.com/rixiobarrios/neighborhood-bulletin-board"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <h6>
+                                Discovery Partners Institute: Neighborhood
+                                Bulletin Board
+                            </h6>
+                        </a>
+                        <img
+                            className="ruby"
+                            src="../images/ruby.png"
+                            alt="ruby"
+                        />
+                        <img
+                            className="rails"
+                            src="../images/rails.png"
+                            alt="rails"
+                        />
                         <hr
                             style={{
                                 borderTop: '3px solid #339999',
@@ -840,120 +939,6 @@ class Resume extends Component {
                         >
                             <h6>Anti-Eviction Mapping Project</h6>
                         </a>
-                        <br></br>
-                        <hr
-                            style={{
-                                borderTop: '3px solid #339999',
-                            }}
-                        />
-                        <h4
-                            style={{
-                                color: '#919292',
-                                textTransform: 'uppercase',
-                                fontFamily: 'Montserrat',
-                            }}
-                        >
-                            Other
-                        </h4>{' '}
-                        <a
-                            href="https://github.com/rixiobarrios/fetch-rewards-is-pyramid-word"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <h6>Fetch Rewards: Is Pyramid Word</h6>
-                        </a>
-                        <img
-                            className="express"
-                            src="../images/express.png"
-                            alt="express"
-                        />
-                        <img
-                            className="cors"
-                            src="../images/cors.png"
-                            alt="cors"
-                        />
-                        <img
-                            className="javascript"
-                            src="../images/javascript.png"
-                            alt="javascript"
-                        />
-                        <a
-                            href="https://github.com/rixiobarrios/super-madlibs"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <h6>Super Madlibs Game</h6>
-                        </a>
-                        <img
-                            className="dotnet"
-                            src="../images/dotnet.png"
-                            alt="dotnet"
-                        />
-                        <img
-                            className="c-sharp"
-                            src="../images/c-sharp.png"
-                            alt="c-sharp"
-                        />
-                        <a
-                            href="https://dpi-tech-ready-portfolio.herokuapp.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <h6>
-                                Discovery Partners Institute: Linktree like
-                                Portfolio
-                            </h6>
-                        </a>
-                        <img
-                            className="ruby"
-                            src="../images/ruby.png"
-                            alt="ruby"
-                        />
-                        <img
-                            className="rails"
-                            src="../images/rails.png"
-                            alt="rails"
-                        />
-                        <a
-                            href="https://github.com/rixiobarrios/neighborhood-bulletin-board"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <h6>
-                                Discovery Partners Institute: Neighborhood
-                                Bulletin Board
-                            </h6>
-                        </a>
-                        <img
-                            className="ruby"
-                            src="../images/ruby.png"
-                            alt="ruby"
-                        />
-                        <img
-                            className="rails"
-                            src="../images/rails.png"
-                            alt="rails"
-                        />
-                        <a
-                            href="https://github.com/rixiobarrios/krayslist"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <h6>
-                                Discovery Partners Institute: Krayslist:
-                                Community classified advertisements website
-                            </h6>
-                        </a>
-                        <img
-                            className="ruby"
-                            src="../images/ruby.png"
-                            alt="ruby"
-                        />
-                        <img
-                            className="rails"
-                            src="../images/rails.png"
-                            alt="rails"
-                        />
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <h2>Experience</h2>
