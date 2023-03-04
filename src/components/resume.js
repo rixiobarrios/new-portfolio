@@ -945,6 +945,14 @@ class Resume extends Component {
                         <Experience
                             startYear={2022}
                             endYear="Present"
+                            jobCompany="SAP America Inc."
+                            jobName="SAP iXp Intern - Software Developer"
+                            jobDescription=" 
+                            Designing and documenting technical requirements, Developing extensions to manufacturing business processes leveraging public APIs and JavaScript, Building custom I-flows in SAP Cloud Platform Integration, Creating custom UI plug-ins deployed into manufacturing, Creating internal development assets (business process extensions, custom plug-ins) based on known use cases that can be leveraged in future customer projects."
+                        />
+                        <Experience
+                            startYear={2022}
+                            endYear={2023}
                             jobCompany="Discovery Partners Institute/University of Illinois"
                             jobName="Software Engineer Apprentice"
                             jobDescription=" 
@@ -952,7 +960,7 @@ class Resume extends Component {
                         />
                         <Experience
                             startYear={2022}
-                            endYear="Present"
+                            endYear={2022}
                             jobCompany="Code The Dream"
                             jobName="
     Intro to Programming Class Mentor"
